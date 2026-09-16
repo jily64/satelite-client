@@ -1,0 +1,1068 @@
+Xray 26.3.27 (Xray, Penetrates Everything.) d2758a0 (go1.26.1 windows/amd64)
+A unified platform for anti-censorship.
+2026/09/17 00:06:11.840163 [Info] app/dns: DNS: created UDP client initialized for 1.1.1.1:53
+2026/09/17 00:06:11.834743 [Info] infra/conf/serial: Reading config: &{Name:conf/xhttp.json Format:json}
+2026/09/17 00:06:11.856703 [Info] app/dns: DNS: created localhost client
+2026/09/17 00:06:11.856703 [Info] transport/internet/tcp: listening TCP on 127.0.0.1:10808
+2026/09/17 00:06:11.856703 [Info] transport/internet/udp: listening UDP on 127.0.0.1:10808
+2026/09/17 00:06:11.856703 [Info] transport/internet/tcp: listening TCP on 127.0.0.1:10809
+2026/09/17 00:06:11.856703 [Warning] core: Xray 26.3.27 started
+2026/09/17 00:06:12.931782 [Info] [3100571281] proxy/http: request to Method [CONNECT] Host [events-am.gw.postman.com:443] with URL [//events-am.gw.postman.com:443]
+2026/09/17 00:06:12.931782 [Info] [3100571281] app/dispatcher: taking detour [proxy] for [tcp:events-am.gw.postman.com:443]
+2026/09/17 00:06:12.931782 from 127.0.0.1:56909 accepted //events-am.gw.postman.com:443 [http-in -> proxy]
+2026/09/17 00:06:12.931782 [Info] [3100571281] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:06:13.032008 [Info] [3100571281] proxy/vless/outbound: tunneling request to tcp:events-am.gw.postman.com:443 via alt.dawg.su:8535
+2026/09/17 00:06:14.742213 [Info] [2265893908] proxy/http: request to Method [CONNECT] Host [www.youtube.com:443] with URL [//www.youtube.com:443]
+2026/09/17 00:06:14.742213 [Info] [2265893908] app/dispatcher: taking detour [proxy] for [tcp:www.youtube.com:443]
+2026/09/17 00:06:14.742213 from 127.0.0.1:56916 accepted //www.youtube.com:443 [http-in -> proxy]
+2026/09/17 00:06:14.742213 [Info] [2265893908] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:06:14.806843 [Info] [2265893908] proxy/vless/outbound: tunneling request to tcp:www.youtube.com:443 via alt.dawg.su:8535
+2026/09/17 00:06:28.042872 [Info] [1046033413] proxy/http: request to Method [CONNECT] Host [accounts.youtube.com:443] with URL [//accounts.youtube.com:443]
+2026/09/17 00:06:28.042872 [Info] [1046033413] app/dispatcher: taking detour [proxy] for [tcp:accounts.youtube.com:443]
+2026/09/17 00:06:28.042872 from 127.0.0.1:56942 accepted //accounts.youtube.com:443 [http-in -> proxy]
+2026/09/17 00:06:28.042872 [Info] [1046033413] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:06:28.111445 [Info] [1046033413] proxy/vless/outbound: tunneling request to tcp:accounts.youtube.com:443 via alt.dawg.su:8535
+2026/09/17 00:06:28.351212 [Info] [120478668] proxy/http: request to Method [CONNECT] Host [strm.yandex.ru:443] with URL [//strm.yandex.ru:443]
+2026/09/17 00:06:28.351212 [Info] [120478668] app/dispatcher: taking detour [proxy] for [tcp:strm.yandex.ru:443]
+2026/09/17 00:06:28.351212 [Info] [120478668] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:06:28.351212 from 127.0.0.1:56943 accepted //strm.yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:06:28.417383 [Info] [120478668] proxy/vless/outbound: tunneling request to tcp:strm.yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:06:54.568133 [Info] [1601587723] proxy/http: request to Method [CONNECT] Host [api.music.yandex.net:443] with URL [//api.music.yandex.net:443]
+2026/09/17 00:06:54.568133 [Info] [1601587723] app/dispatcher: taking detour [proxy] for [tcp:api.music.yandex.net:443]
+2026/09/17 00:06:54.568133 [Info] [1601587723] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:06:54.568133 from 127.0.0.1:56997 accepted //api.music.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:06:54.568133 [Info] [1601587723] proxy/vless/outbound: tunneling request to tcp:api.music.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:06:54.819203 [Info] [3757520649] proxy/http: request to Method [CONNECT] Host [api.music.yandex.net:443] with URL [//api.music.yandex.net:443]
+2026/09/17 00:06:54.819203 [Info] [3757520649] app/dispatcher: taking detour [proxy] for [tcp:api.music.yandex.net:443]
+2026/09/17 00:06:54.819203 [Info] [3757520649] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:06:54.819203 from 127.0.0.1:57000 accepted //api.music.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:06:54.886933 [Info] [3757520649] proxy/vless/outbound: tunneling request to tcp:api.music.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:06:55.246287 [Info] [3667152121] proxy/http: request to Method [CONNECT] Host [mc.yandex.com:443] with URL [//mc.yandex.com:443]
+2026/09/17 00:06:55.246287 [Info] [3667152121] app/dispatcher: taking detour [proxy] for [tcp:mc.yandex.com:443]
+2026/09/17 00:06:55.246287 [Info] [3667152121] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:06:55.246287 from 127.0.0.1:57001 accepted //mc.yandex.com:443 [http-in -> proxy]
+2026/09/17 00:06:55.258450 [Info] [3841261713] proxy/http: request to Method [CONNECT] Host [avatars.yandex.net:443] with URL [//avatars.yandex.net:443]
+2026/09/17 00:06:55.258450 [Info] [3841261713] app/dispatcher: taking detour [proxy] for [tcp:avatars.yandex.net:443]
+2026/09/17 00:06:55.258450 [Info] [3841261713] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:06:55.258450 from 127.0.0.1:57002 accepted //avatars.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:06:55.350869 [Info] [3841261713] proxy/vless/outbound: tunneling request to tcp:avatars.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:06:55.487508 [Info] [3667152121] proxy/vless/outbound: tunneling request to tcp:mc.yandex.com:443 via alt.dawg.su:8535
+2026/09/17 00:06:55.564504 [Info] [94891533] proxy/http: request to Method [CONNECT] Host [mc.yandex.com:443] with URL [//mc.yandex.com:443]
+2026/09/17 00:06:55.564504 [Info] [94891533] app/dispatcher: taking detour [proxy] for [tcp:mc.yandex.com:443]
+2026/09/17 00:06:55.564504 [Info] [94891533] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:06:55.564504 from 127.0.0.1:51981 accepted //mc.yandex.com:443 [http-in -> proxy]
+2026/09/17 00:06:55.598042 [Info] [1383369969] proxy/http: request to Method [CONNECT] Host [mc.yandex.com:443] with URL [//mc.yandex.com:443]
+2026/09/17 00:06:55.598042 [Info] [1383369969] app/dispatcher: taking detour [proxy] for [tcp:mc.yandex.com:443]
+2026/09/17 00:06:55.598042 from 127.0.0.1:51982 accepted //mc.yandex.com:443 [http-in -> proxy]
+2026/09/17 00:06:55.598042 [Info] [1383369969] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:06:55.610497 [Info] [1464697432] proxy/http: request to Method [CONNECT] Host [mc.yandex.com:443] with URL [//mc.yandex.com:443]
+2026/09/17 00:06:55.610497 [Info] [1464697432] app/dispatcher: taking detour [proxy] for [tcp:mc.yandex.com:443]
+2026/09/17 00:06:55.610497 [Info] [1464697432] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:06:55.610497 from 127.0.0.1:51984 accepted //mc.yandex.com:443 [http-in -> proxy]
+2026/09/17 00:06:55.629188 [Info] [94891533] proxy/vless/outbound: tunneling request to tcp:mc.yandex.com:443 via alt.dawg.su:8535
+2026/09/17 00:06:55.663912 [Info] [1383369969] proxy/vless/outbound: tunneling request to tcp:mc.yandex.com:443 via alt.dawg.su:8535
+2026/09/17 00:06:55.677967 [Info] [1464697432] proxy/vless/outbound: tunneling request to tcp:mc.yandex.com:443 via alt.dawg.su:8535
+2026/09/17 00:06:56.465856 [Info] [4060672167] proxy/http: request to Method [CONNECT] Host [strm-ams25.strm.yandex.net:443] with URL [//strm-ams25.strm.yandex.net:443]
+2026/09/17 00:06:56.465856 [Info] [4060672167] app/dispatcher: taking detour [proxy] for [tcp:strm-ams25.strm.yandex.net:443]
+2026/09/17 00:06:56.465856 [Info] [4060672167] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:06:56.465856 from 127.0.0.1:63773 accepted //strm-ams25.strm.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:06:56.529285 [Info] [4060672167] proxy/vless/outbound: tunneling request to tcp:strm-ams25.strm.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:06:56.573962 [Info] [4102772919] proxy/http: request to Method [CONNECT] Host [strm-rad-23.strm.yandex.net:443] with URL [//strm-rad-23.strm.yandex.net:443]
+2026/09/17 00:06:56.573962 [Info] [4102772919] app/dispatcher: taking detour [proxy] for [tcp:strm-rad-23.strm.yandex.net:443]
+2026/09/17 00:06:56.573962 from 127.0.0.1:63774 accepted //strm-rad-23.strm.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:06:56.573962 [Info] [4102772919] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:06:56.807774 [Info] [4102772919] proxy/vless/outbound: tunneling request to tcp:strm-rad-23.strm.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:06:58.339758 [Info] [4104572953] proxy/http: request to Method [CONNECT] Host [strm.yandex.ru:443] with URL [//strm.yandex.ru:443]
+2026/09/17 00:06:58.339758 [Info] [4104572953] app/dispatcher: taking detour [proxy] for [tcp:strm.yandex.ru:443]
+2026/09/17 00:06:58.339758 [Info] [4104572953] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:06:58.339758 from 127.0.0.1:63779 accepted //strm.yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:06:58.339758 [Info] [4104572953] proxy/vless/outbound: tunneling request to tcp:strm.yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:07:28.350382 [Info] [3453847587] proxy/http: request to Method [CONNECT] Host [strm.yandex.ru:443] with URL [//strm.yandex.ru:443]
+2026/09/17 00:07:28.350382 [Info] [3453847587] app/dispatcher: taking detour [proxy] for [tcp:strm.yandex.ru:443]
+2026/09/17 00:07:28.350382 [Info] [3453847587] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:07:28.350382 from 127.0.0.1:63843 accepted //strm.yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:07:28.350382 [Info] [3453847587] proxy/vless/outbound: tunneling request to tcp:strm.yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:07:54.001092 [Info] [333021358] proxy/http: request to Method [CONNECT] Host [v20.events.data.microsoft.com:443] with URL [//v20.events.data.microsoft.com:443]
+2026/09/17 00:07:54.001092 [Info] [333021358] app/dispatcher: taking detour [proxy] for [tcp:v20.events.data.microsoft.com:443]
+2026/09/17 00:07:54.001092 from 127.0.0.1:63906 accepted //v20.events.data.microsoft.com:443 [http-in -> proxy]
+2026/09/17 00:07:54.001092 [Info] [333021358] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:07:54.002617 [Info] [333021358] proxy/vless/outbound: tunneling request to tcp:v20.events.data.microsoft.com:443 via alt.dawg.su:8535
+2026/09/17 00:07:56.092787 [Info] [2468736262] proxy/http: request to Method [CONNECT] Host [desktop.app.music.yandex.net:443] with URL [//desktop.app.music.yandex.net:443]
+2026/09/17 00:07:56.092787 [Info] [2468736262] app/dispatcher: taking detour [proxy] for [tcp:desktop.app.music.yandex.net:443]
+2026/09/17 00:07:56.092787 [Info] [2468736262] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:07:56.092787 from 127.0.0.1:63911 accepted //desktop.app.music.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:07:56.092787 [Info] [2468736262] proxy/vless/outbound: tunneling request to tcp:desktop.app.music.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:07:56.277117 [Info] [3248893320] proxy/http: request to Method [CONNECT] Host [cloudcdn-fra-01.cdn.yandex.net:443] with URL [//cloudcdn-fra-01.cdn.yandex.net:443]
+2026/09/17 00:07:56.277117 [Info] [3248893320] app/dispatcher: taking detour [proxy] for [tcp:cloudcdn-fra-01.cdn.yandex.net:443]
+2026/09/17 00:07:56.277117 from 127.0.0.1:63914 accepted //cloudcdn-fra-01.cdn.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:07:56.277117 [Info] [3248893320] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:07:56.278648 [Info] [3248893320] proxy/vless/outbound: tunneling request to tcp:cloudcdn-fra-01.cdn.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:07:58.350415 [Info] [1912099424] proxy/http: request to Method [CONNECT] Host [strm.yandex.ru:443] with URL [//strm.yandex.ru:443]
+2026/09/17 00:07:58.352033 [Info] [1912099424] app/dispatcher: taking detour [proxy] for [tcp:strm.yandex.ru:443]
+2026/09/17 00:07:58.352033 [Info] [1912099424] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:07:58.352033 from 127.0.0.1:63921 accepted //strm.yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:07:58.352033 [Info] [1912099424] proxy/vless/outbound: tunneling request to tcp:strm.yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:08:02.334898 [Info] [3712569763] proxy/http: request to Method [GET] Host [ipv6.msftconnecttest.com] with URL [http://ipv6.msftconnecttest.com/connecttest.txt]
+2026/09/17 00:08:02.334898 [Info] [3712569763] app/dispatcher: taking detour [proxy] for [tcp:ipv6.msftconnecttest.com:80]
+2026/09/17 00:08:02.334898 [Info] [3712569763] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:08:02.334898 [Info] [3712569763] proxy/vless/outbound: tunneling request to tcp:ipv6.msftconnecttest.com:80 via alt.dawg.su:8535
+2026/09/17 00:08:02.334898 from 127.0.0.1:63931 accepted http://ipv6.msftconnecttest.com/connecttest.txt [http-in -> proxy]
+2026/09/17 00:08:02.337251 [Info] [4078619641] proxy/http: request to Method [GET] Host [www.msftconnecttest.com] with URL [http://www.msftconnecttest.com/connecttest.txt]
+2026/09/17 00:08:02.337251 [Info] [4078619641] app/dispatcher: taking detour [proxy] for [tcp:www.msftconnecttest.com:80]
+2026/09/17 00:08:02.337251 [Info] [4078619641] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:08:02.337251 from 127.0.0.1:63933 accepted http://www.msftconnecttest.com/connecttest.txt [http-in -> proxy]
+2026/09/17 00:08:02.337251 [Info] [4078619641] proxy/vless/outbound: tunneling request to tcp:www.msftconnecttest.com:80 via alt.dawg.su:8535
+2026/09/17 00:08:03.399265 [Warning] [3712569763] proxy/http: failed to read response from ipv6.msftconnecttest.com > unexpected EOF
+2026/09/17 00:08:03.502449 [Info] [1784792055] proxy/http: request to Method [GET] Host [ipv6.msftconnecttest.com] with URL [http://ipv6.msftconnecttest.com/connecttest.txt]
+2026/09/17 00:08:03.502449 [Info] [1784792055] app/dispatcher: taking detour [proxy] for [tcp:ipv6.msftconnecttest.com:80]
+2026/09/17 00:08:03.502449 from 127.0.0.1:59681 accepted http://ipv6.msftconnecttest.com/connecttest.txt [http-in -> proxy]
+2026/09/17 00:08:03.502449 [Info] [1784792055] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:08:03.502449 [Info] [1784792055] proxy/vless/outbound: tunneling request to tcp:ipv6.msftconnecttest.com:80 via alt.dawg.su:8535
+2026/09/17 00:08:04.567123 [Warning] [1784792055] proxy/http: failed to read response from ipv6.msftconnecttest.com > unexpected EOF
+2026/09/17 00:08:10.631763 [Info] [3129016511] proxy/http: request to Method [CONNECT] Host [alt.dawg.su:443] with URL [//alt.dawg.su:443]
+2026/09/17 00:08:10.631763 [Info] [3129016511] app/dispatcher: taking detour [proxy] for [tcp:alt.dawg.su:443]
+2026/09/17 00:08:10.631763 [Info] [3129016511] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:08:10.631763 from 127.0.0.1:59695 accepted //alt.dawg.su:443 [http-in -> proxy]
+2026/09/17 00:08:10.631763 [Info] [3129016511] proxy/vless/outbound: tunneling request to tcp:alt.dawg.su:443 via alt.dawg.su:8535
+2026/09/17 00:08:10.822371 [Info] [136140141] proxy/http: request to Method [CONNECT] Host [alt.dawg.su:443] with URL [//alt.dawg.su:443]
+2026/09/17 00:08:10.822371 [Info] [136140141] app/dispatcher: taking detour [proxy] for [tcp:alt.dawg.su:443]
+2026/09/17 00:08:10.822885 [Info] [136140141] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:08:10.822885 from 127.0.0.1:59696 accepted //alt.dawg.su:443 [http-in -> proxy]
+2026/09/17 00:08:10.822885 [Info] [241098308] proxy/http: request to Method [CONNECT] Host [alt.dawg.su:443] with URL [//alt.dawg.su:443]
+2026/09/17 00:08:10.822885 [Info] [136140141] proxy/vless/outbound: tunneling request to tcp:alt.dawg.su:443 via alt.dawg.su:8535
+2026/09/17 00:08:10.822885 [Info] [241098308] app/dispatcher: taking detour [proxy] for [tcp:alt.dawg.su:443]
+2026/09/17 00:08:10.822885 [Info] [241098308] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:08:10.822885 [Info] [3118052662] proxy/http: request to Method [CONNECT] Host [alt.dawg.su:443] with URL [//alt.dawg.su:443]
+2026/09/17 00:08:10.822885 from 127.0.0.1:59699 accepted //alt.dawg.su:443 [http-in -> proxy]
+2026/09/17 00:08:10.822885 from 127.0.0.1:59698 accepted //alt.dawg.su:443 [http-in -> proxy]
+2026/09/17 00:08:10.822885 [Info] [3118052662] app/dispatcher: taking detour [proxy] for [tcp:alt.dawg.su:443]
+2026/09/17 00:08:10.822885 [Info] [3118052662] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:08:10.824020 [Info] [905202661] proxy/http: request to Method [CONNECT] Host [alt.dawg.su:443] with URL [//alt.dawg.su:443]
+2026/09/17 00:08:10.824020 [Info] [905202661] app/dispatcher: taking detour [proxy] for [tcp:alt.dawg.su:443]
+2026/09/17 00:08:10.824020 [Info] [905202661] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:08:10.824020 from 127.0.0.1:59697 accepted //alt.dawg.su:443 [http-in -> proxy]
+2026/09/17 00:08:10.830933 [Info] [1860770229] proxy/http: request to Method [CONNECT] Host [alt.dawg.su:443] with URL [//alt.dawg.su:443]
+2026/09/17 00:08:10.830933 [Info] [1860770229] app/dispatcher: taking detour [proxy] for [tcp:alt.dawg.su:443]
+2026/09/17 00:08:10.830933 [Info] [1860770229] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:08:10.830933 from 127.0.0.1:59700 accepted //alt.dawg.su:443 [http-in -> proxy]
+2026/09/17 00:08:10.906470 [Info] [3118052662] proxy/vless/outbound: tunneling request to tcp:alt.dawg.su:443 via alt.dawg.su:8535
+2026/09/17 00:08:10.906470 [Info] [1860770229] proxy/vless/outbound: tunneling request to tcp:alt.dawg.su:443 via alt.dawg.su:8535
+2026/09/17 00:08:10.906470 [Info] [241098308] proxy/vless/outbound: tunneling request to tcp:alt.dawg.su:443 via alt.dawg.su:8535
+2026/09/17 00:08:10.906470 [Info] [905202661] proxy/vless/outbound: tunneling request to tcp:alt.dawg.su:443 via alt.dawg.su:8535
+2026/09/17 00:08:11.188930 [Info] [4022560995] proxy/http: request to Method [CONNECT] Host [googleads.g.doubleclick.net:443] with URL [//googleads.g.doubleclick.net:443]
+2026/09/17 00:08:11.188930 [Info] [4022560995] app/dispatcher: taking detour [proxy] for [tcp:googleads.g.doubleclick.net:443]
+2026/09/17 00:08:11.188930 [Info] [4022560995] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:08:11.188930 from 127.0.0.1:59701 accepted //googleads.g.doubleclick.net:443 [http-in -> proxy]
+2026/09/17 00:08:11.259508 [Info] [4022560995] proxy/vless/outbound: tunneling request to tcp:googleads.g.doubleclick.net:443 via alt.dawg.su:8535
+2026/09/17 00:08:11.545240 [Info] [521077708] proxy/http: request to Method [CONNECT] Host [ungh.cc:443] with URL [//ungh.cc:443]
+2026/09/17 00:08:11.545770 [Info] [521077708] app/dispatcher: taking detour [proxy] for [tcp:ungh.cc:443]
+2026/09/17 00:08:11.545770 [Info] [521077708] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:08:11.545770 from 127.0.0.1:59704 accepted //ungh.cc:443 [http-in -> proxy]
+2026/09/17 00:08:11.619153 [Info] [521077708] proxy/vless/outbound: tunneling request to tcp:ungh.cc:443 via alt.dawg.su:8535
+2026/09/17 00:08:11.635742 [Info] [2182512656] proxy/http: request to Method [CONNECT] Host [raw.githubusercontent.com:443] with URL [//raw.githubusercontent.com:443]
+2026/09/17 00:08:11.635742 [Info] [2182512656] app/dispatcher: taking detour [proxy] for [tcp:raw.githubusercontent.com:443]
+2026/09/17 00:08:11.635742 from 127.0.0.1:59705 accepted //raw.githubusercontent.com:443 [http-in -> proxy]
+2026/09/17 00:08:11.635742 [Info] [2182512656] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:08:11.641813 [Info] [1925310611] proxy/http: request to Method [CONNECT] Host [raw.githubusercontent.com:443] with URL [//raw.githubusercontent.com:443]
+2026/09/17 00:08:11.641813 [Info] [1925310611] app/dispatcher: taking detour [proxy] for [tcp:raw.githubusercontent.com:443]
+2026/09/17 00:08:11.641813 from 127.0.0.1:59706 accepted //raw.githubusercontent.com:443 [http-in -> proxy]
+2026/09/17 00:08:11.641813 [Info] [1925310611] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:08:11.707926 [Info] [2182512656] proxy/vless/outbound: tunneling request to tcp:raw.githubusercontent.com:443 via alt.dawg.su:8535
+2026/09/17 00:08:11.713874 [Info] [1925310611] proxy/vless/outbound: tunneling request to tcp:raw.githubusercontent.com:443 via alt.dawg.su:8535
+2026/09/17 00:08:11.766441 [Info] [2182512656] app/proxyman/outbound: app/proxyman/outbound: failed to process outbound traffic > proxy/vless/outbound: connection ends > proxy/vless/outbound: failed to transfer response payload > write tcp 127.0.0.1:10809->127.0.0.1:59705: wsasend: An established connection was aborted by the software in your host machine.
+2026/09/17 00:08:17.279526 [Info] [6410150] proxy/http: request to Method [CONNECT] Host [strm-rad-23.strm.yandex.net:443] with URL [//strm-rad-23.strm.yandex.net:443]
+2026/09/17 00:08:17.279526 [Info] [6410150] app/dispatcher: taking detour [proxy] for [tcp:strm-rad-23.strm.yandex.net:443]
+2026/09/17 00:08:17.279526 [Info] [6410150] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:08:17.279526 from 127.0.0.1:59717 accepted //strm-rad-23.strm.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:08:17.279526 [Info] [6410150] proxy/vless/outbound: tunneling request to tcp:strm-rad-23.strm.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:08:20.965170 [Info] [1984464525] proxy/http: request to Method [CONNECT] Host [149.154.167.223:443] with URL [//149.154.167.223:443]
+2026/09/17 00:08:20.966691 [Info] [1984464525] app/dispatcher: taking detour [proxy] for [tcp:149.154.167.223:443]
+2026/09/17 00:08:20.966691 [Info] [1984464525] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:08:20.966691 from 127.0.0.1:59726 accepted //149.154.167.223:443 [http-in -> proxy]
+2026/09/17 00:08:20.966691 [Info] [1984464525] proxy/vless/outbound: tunneling request to tcp:149.154.167.223:443 via alt.dawg.su:8535
+2026/09/17 00:08:20.968304 [Info] [1603682270] proxy/http: request to Method [POST] Host [149.154.167.223:80] with URL [http://149.154.167.223:80/api]
+2026/09/17 00:08:20.968304 [Info] [1603682270] app/dispatcher: taking detour [proxy] for [tcp:149.154.167.223:80]
+2026/09/17 00:08:20.968304 from 127.0.0.1:59727 accepted http://149.154.167.223:80/api [http-in -> proxy]
+2026/09/17 00:08:20.968304 [Info] [1603682270] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:08:20.968304 [Info] [1603682270] proxy/vless/outbound: tunneling request to tcp:149.154.167.223:80 via alt.dawg.su:8535
+2026/09/17 00:08:21.026598 [Warning] [1603682270] app/proxyman/inbound: connection ends > proxy/http: connection ends > proxy/http: failed to write response > write tcp 127.0.0.1:10809->127.0.0.1:59727: wsasend: An established connection was aborted by the software in your host machine.
+2026/09/17 00:08:26.604742 [Info] [3357817939] proxy/http: request to Method [CONNECT] Host [log.strm.yandex.ru:443] with URL [//log.strm.yandex.ru:443]
+2026/09/17 00:08:26.604742 [Info] [3357817939] app/dispatcher: taking detour [proxy] for [tcp:log.strm.yandex.ru:443]
+2026/09/17 00:08:26.604742 [Info] [3357817939] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:08:26.604742 from 127.0.0.1:59741 accepted //log.strm.yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:08:26.604742 [Info] [3357817939] proxy/vless/outbound: tunneling request to tcp:log.strm.yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:08:27.610563 [Info] [1372727166] proxy/http: request to Method [CONNECT] Host [utils.docs.rw:443] with URL [//utils.docs.rw:443]
+2026/09/17 00:08:27.610563 [Info] [1372727166] app/dispatcher: taking detour [proxy] for [tcp:utils.docs.rw:443]
+2026/09/17 00:08:27.610563 [Info] [1372727166] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:08:27.610563 from 127.0.0.1:59744 accepted //utils.docs.rw:443 [http-in -> proxy]
+2026/09/17 00:08:27.610563 [Info] [1372727166] proxy/vless/outbound: tunneling request to tcp:utils.docs.rw:443 via alt.dawg.su:8535
+2026/09/17 00:08:28.349140 [Info] [948536255] proxy/http: request to Method [CONNECT] Host [strm.yandex.ru:443] with URL [//strm.yandex.ru:443]
+2026/09/17 00:08:28.349140 [Info] [948536255] app/dispatcher: taking detour [proxy] for [tcp:strm.yandex.ru:443]
+2026/09/17 00:08:28.350673 [Info] [948536255] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:08:28.350673 from 127.0.0.1:59745 accepted //strm.yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:08:28.350673 [Info] [948536255] proxy/vless/outbound: tunneling request to tcp:strm.yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:08:29.282432 [Info] [2152770377] proxy/http: request to Method [CONNECT] Host [strm-rad-23.strm.yandex.net:443] with URL [//strm-rad-23.strm.yandex.net:443]
+2026/09/17 00:08:29.282432 [Info] [2152770377] app/dispatcher: taking detour [proxy] for [tcp:strm-rad-23.strm.yandex.net:443]
+2026/09/17 00:08:29.282432 [Info] [2152770377] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:08:29.282432 from 127.0.0.1:59748 accepted //strm-rad-23.strm.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:08:29.282432 [Info] [2152770377] proxy/vless/outbound: tunneling request to tcp:strm-rad-23.strm.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:08:31.506796 [Info] [2670218950] proxy/http: request to Method [CONNECT] Host [push.services.mozilla.com:443] with URL [//push.services.mozilla.com:443]
+2026/09/17 00:08:31.507302 [Info] [2670218950] app/dispatcher: taking detour [proxy] for [tcp:push.services.mozilla.com:443]
+2026/09/17 00:08:31.507302 from 127.0.0.1:59753 accepted //push.services.mozilla.com:443 [http-in -> proxy]
+2026/09/17 00:08:31.507302 [Info] [2670218950] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:08:31.507302 [Info] [2670218950] proxy/vless/outbound: tunneling request to tcp:push.services.mozilla.com:443 via alt.dawg.su:8535
+2026/09/17 00:08:31.640300 [Info] [193607873] proxy/http: request to Method [CONNECT] Host [push.services.mozilla.com:443] with URL [//push.services.mozilla.com:443]
+2026/09/17 00:08:31.640300 [Info] [193607873] app/dispatcher: taking detour [proxy] for [tcp:push.services.mozilla.com:443]
+2026/09/17 00:08:31.640808 from 127.0.0.1:59756 accepted //push.services.mozilla.com:443 [http-in -> proxy]
+2026/09/17 00:08:31.640808 [Info] [193607873] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:08:31.640808 [Info] [193607873] proxy/vless/outbound: tunneling request to tcp:push.services.mozilla.com:443 via alt.dawg.su:8535
+2026/09/17 00:08:31.885019 [Info] [479431787] proxy/http: request to Method [CONNECT] Host [accounts.google.com:443] with URL [//accounts.google.com:443]
+2026/09/17 00:08:31.885019 [Info] [479431787] app/dispatcher: taking detour [proxy] for [tcp:accounts.google.com:443]
+2026/09/17 00:08:31.885019 [Info] [479431787] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:08:31.885529 from 127.0.0.1:59757 accepted //accounts.google.com:443 [http-in -> proxy]
+2026/09/17 00:08:31.885529 [Info] [479431787] proxy/vless/outbound: tunneling request to tcp:accounts.google.com:443 via alt.dawg.su:8535
+2026/09/17 00:08:32.177394 [Info] [812849805] proxy/http: request to Method [CONNECT] Host [firefox.settings.services.mozilla.com:443] with URL [//firefox.settings.services.mozilla.com:443]
+2026/09/17 00:08:32.177394 [Info] [812849805] app/dispatcher: taking detour [proxy] for [tcp:firefox.settings.services.mozilla.com:443]
+2026/09/17 00:08:32.177394 [Info] [812849805] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:08:32.177394 from 127.0.0.1:59758 accepted //firefox.settings.services.mozilla.com:443 [http-in -> proxy]
+2026/09/17 00:08:32.177394 [Info] [812849805] proxy/vless/outbound: tunneling request to tcp:firefox.settings.services.mozilla.com:443 via alt.dawg.su:8535
+2026/09/17 00:08:37.274399 [Info] [3841374955] proxy/http: request to Method [CONNECT] Host [strm-rad-23.strm.yandex.net:443] with URL [//strm-rad-23.strm.yandex.net:443]
+2026/09/17 00:08:37.274399 [Info] [3841374955] app/dispatcher: taking detour [proxy] for [tcp:strm-rad-23.strm.yandex.net:443]
+2026/09/17 00:08:37.274399 [Info] [3841374955] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:08:37.274399 from 127.0.0.1:59769 accepted //strm-rad-23.strm.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:08:37.274399 [Info] [3841374955] proxy/vless/outbound: tunneling request to tcp:strm-rad-23.strm.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:08:37.899823 [Info] [2080612809] app/proxyman/inbound: connection ends > proxy/http: failed to read http request > EOF
+2026/09/17 00:08:41.093145 [Info] [2090640988] proxy/http: request to Method [CONNECT] Host [yandex.ru:443] with URL [//yandex.ru:443]
+2026/09/17 00:08:41.093145 [Info] [2090640988] app/dispatcher: taking detour [proxy] for [tcp:yandex.ru:443]
+2026/09/17 00:08:41.093145 [Info] [2090640988] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:08:41.093145 from 127.0.0.1:59778 accepted //yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:08:41.093145 [Info] [2090640988] proxy/vless/outbound: tunneling request to tcp:yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:08:41.667567 [Info] [779465956] proxy/http: request to Method [CONNECT] Host [bam.nr-data.net:443] with URL [//bam.nr-data.net:443]
+2026/09/17 00:08:41.667567 [Info] [779465956] app/dispatcher: taking detour [proxy] for [tcp:bam.nr-data.net:443]
+2026/09/17 00:08:41.667567 [Info] [779465956] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:08:41.667567 from 127.0.0.1:59781 accepted //bam.nr-data.net:443 [http-in -> proxy]
+2026/09/17 00:08:41.668167 [Info] [779465956] proxy/vless/outbound: tunneling request to tcp:bam.nr-data.net:443 via alt.dawg.su:8535
+2026/09/17 00:08:51.663890 [Info] [2994272063] proxy/http: request to Method [CONNECT] Host [bam.nr-data.net:443] with URL [//bam.nr-data.net:443]
+2026/09/17 00:08:51.663890 [Info] [2994272063] app/dispatcher: taking detour [proxy] for [tcp:bam.nr-data.net:443]
+2026/09/17 00:08:51.663890 [Info] [2994272063] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:08:51.663890 from 127.0.0.1:59802 accepted //bam.nr-data.net:443 [http-in -> proxy]
+2026/09/17 00:08:51.663890 [Info] [2994272063] proxy/vless/outbound: tunneling request to tcp:bam.nr-data.net:443 via alt.dawg.su:8535
+2026/09/17 00:08:56.701938 [Info] [2099822338] proxy/http: request to Method [CONNECT] Host [log.strm.yandex.ru:443] with URL [//log.strm.yandex.ru:443]
+2026/09/17 00:08:56.701938 [Info] [2099822338] app/dispatcher: taking detour [proxy] for [tcp:log.strm.yandex.ru:443]
+2026/09/17 00:08:56.701938 [Info] [2099822338] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:08:56.701938 [Info] [2099822338] proxy/vless/outbound: tunneling request to tcp:log.strm.yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:08:56.701938 from 127.0.0.1:59813 accepted //log.strm.yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:08:58.352011 [Info] [69113597] proxy/http: request to Method [CONNECT] Host [strm.yandex.ru:443] with URL [//strm.yandex.ru:443]
+2026/09/17 00:08:58.352011 [Info] [69113597] app/dispatcher: taking detour [proxy] for [tcp:strm.yandex.ru:443]
+2026/09/17 00:08:58.352011 [Info] [69113597] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:08:58.352011 from 127.0.0.1:59818 accepted //strm.yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:08:58.352011 [Info] [69113597] proxy/vless/outbound: tunneling request to tcp:strm.yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:09:01.673272 [Info] [518334986] proxy/http: request to Method [CONNECT] Host [bam.nr-data.net:443] with URL [//bam.nr-data.net:443]
+2026/09/17 00:09:01.673272 [Info] [518334986] app/dispatcher: taking detour [proxy] for [tcp:bam.nr-data.net:443]
+2026/09/17 00:09:01.673272 [Info] [518334986] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:09:01.673272 from 127.0.0.1:59825 accepted //bam.nr-data.net:443 [http-in -> proxy]
+2026/09/17 00:09:01.673272 [Info] [518334986] proxy/vless/outbound: tunneling request to tcp:bam.nr-data.net:443 via alt.dawg.su:8535
+2026/09/17 00:09:03.373622 [Info] [606191351] proxy/http: request to Method [CONNECT] Host [update.code.visualstudio.com:443] with URL [//update.code.visualstudio.com:443]
+2026/09/17 00:09:03.373622 [Info] [606191351] app/dispatcher: taking detour [proxy] for [tcp:update.code.visualstudio.com:443]
+2026/09/17 00:09:03.373622 [Info] [606191351] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:09:03.373622 from 127.0.0.1:62396 accepted //update.code.visualstudio.com:443 [http-in -> proxy]
+2026/09/17 00:09:03.374662 [Info] [606191351] proxy/vless/outbound: tunneling request to tcp:update.code.visualstudio.com:443 via alt.dawg.su:8535
+2026/09/17 00:09:07.573078 from 127.0.0.1:62409 accepted //log.strm.yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:09:07.573583 from 127.0.0.1:62410 accepted //api.music.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:09:07.574138 [Info] [1274312177] proxy/http: request to Method [CONNECT] Host [log.strm.yandex.ru:443] with URL [//log.strm.yandex.ru:443]
+2026/09/17 00:09:07.574138 [Info] [1274312177] app/dispatcher: taking detour [proxy] for [tcp:log.strm.yandex.ru:443]
+2026/09/17 00:09:07.574138 [Info] [1274312177] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:09:07.574138 [Info] [1274312177] proxy/vless/outbound: tunneling request to tcp:log.strm.yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:09:07.574138 [Info] [983001780] proxy/http: request to Method [CONNECT] Host [api.music.yandex.net:443] with URL [//api.music.yandex.net:443]
+2026/09/17 00:09:07.574138 [Info] [983001780] app/dispatcher: taking detour [proxy] for [tcp:api.music.yandex.net:443]
+2026/09/17 00:09:07.574138 [Info] [983001780] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:09:07.574138 [Info] [983001780] proxy/vless/outbound: tunneling request to tcp:api.music.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:09:07.832043 [Info] [2077503272] proxy/http: request to Method [CONNECT] Host [api.music.yandex.net:443] with URL [//api.music.yandex.net:443]
+2026/09/17 00:09:07.832043 [Info] [2077503272] app/dispatcher: taking detour [proxy] for [tcp:api.music.yandex.net:443]
+2026/09/17 00:09:07.832043 [Info] [2077503272] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:09:07.832043 from 127.0.0.1:62413 accepted //api.music.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:09:07.914224 [Info] [2077503272] proxy/vless/outbound: tunneling request to tcp:api.music.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:09:08.318315 [Info] [284203006] proxy/http: request to Method [CONNECT] Host [yandex.ru:443] with URL [//yandex.ru:443]
+2026/09/17 00:09:08.318315 [Info] [284203006] app/dispatcher: taking detour [proxy] for [tcp:yandex.ru:443]
+2026/09/17 00:09:08.318315 [Info] [284203006] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:09:08.318315 from 127.0.0.1:62414 accepted //yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:09:08.321283 [Info] [2380601225] proxy/http: request to Method [CONNECT] Host [avatars.yandex.net:443] with URL [//avatars.yandex.net:443]
+2026/09/17 00:09:08.321283 [Info] [2380601225] app/dispatcher: taking detour [proxy] for [tcp:avatars.yandex.net:443]
+2026/09/17 00:09:08.321283 [Info] [2380601225] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:09:08.321283 from 127.0.0.1:62415 accepted //avatars.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:09:08.324713 [Info] [2516254798] proxy/http: request to Method [CONNECT] Host [mc.yandex.com:443] with URL [//mc.yandex.com:443]
+2026/09/17 00:09:08.325127 [Info] [2516254798] app/dispatcher: taking detour [proxy] for [tcp:mc.yandex.com:443]
+2026/09/17 00:09:08.325127 [Info] [2516254798] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:09:08.325127 from 127.0.0.1:62416 accepted //mc.yandex.com:443 [http-in -> proxy]
+2026/09/17 00:09:08.391844 [Info] [284203006] proxy/vless/outbound: tunneling request to tcp:yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:09:08.403843 [Info] [2380601225] proxy/vless/outbound: tunneling request to tcp:avatars.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:09:08.404922 [Info] [2516254798] proxy/vless/outbound: tunneling request to tcp:mc.yandex.com:443 via alt.dawg.su:8535
+2026/09/17 00:09:09.548023 [Info] [2588694697] proxy/http: request to Method [CONNECT] Host [strm-ams24.strm.yandex.net:443] with URL [//strm-ams24.strm.yandex.net:443]
+2026/09/17 00:09:09.548023 [Info] [2588694697] app/dispatcher: taking detour [proxy] for [tcp:strm-ams24.strm.yandex.net:443]
+2026/09/17 00:09:09.548023 [Info] [2588694697] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:09:09.548023 from 127.0.0.1:62419 accepted //strm-ams24.strm.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:09:09.548023 [Info] [2588694697] proxy/vless/outbound: tunneling request to tcp:strm-ams24.strm.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:09:09.574905 [Info] [211384366] proxy/http: request to Method [CONNECT] Host [strm-ams25.strm.yandex.net:443] with URL [//strm-ams25.strm.yandex.net:443]
+2026/09/17 00:09:09.575411 [Info] [211384366] app/dispatcher: taking detour [proxy] for [tcp:strm-ams25.strm.yandex.net:443]
+2026/09/17 00:09:09.575411 [Info] [211384366] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:09:09.575411 from 127.0.0.1:62420 accepted //strm-ams25.strm.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:09:09.644712 [Info] [211384366] proxy/vless/outbound: tunneling request to tcp:strm-ams25.strm.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:09:11.685761 [Info] [2324113613] proxy/http: request to Method [CONNECT] Host [bam.nr-data.net:443] with URL [//bam.nr-data.net:443]
+2026/09/17 00:09:11.685761 [Info] [2324113613] app/dispatcher: taking detour [proxy] for [tcp:bam.nr-data.net:443]
+2026/09/17 00:09:11.685761 [Info] [2324113613] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:09:11.685761 from 127.0.0.1:62425 accepted //bam.nr-data.net:443 [http-in -> proxy]
+2026/09/17 00:09:11.752864 [Info] [2324113613] proxy/vless/outbound: tunneling request to tcp:bam.nr-data.net:443 via alt.dawg.su:8535
+2026/09/17 00:09:17.670306 [Info] [3652951422] proxy/http: request to Method [CONNECT] Host [strm-ams25.strm.yandex.net:443] with URL [//strm-ams25.strm.yandex.net:443]
+2026/09/17 00:09:17.670306 [Info] [3652951422] app/dispatcher: taking detour [proxy] for [tcp:strm-ams25.strm.yandex.net:443]
+2026/09/17 00:09:17.670306 [Info] [3652951422] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:09:17.670306 from 127.0.0.1:62438 accepted //strm-ams25.strm.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:09:17.670306 [Info] [3652951422] proxy/vless/outbound: tunneling request to tcp:strm-ams25.strm.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:09:19.575560 [Info] [672438458] proxy/http: request to Method [CONNECT] Host [log.strm.yandex.ru:443] with URL [//log.strm.yandex.ru:443]
+2026/09/17 00:09:19.575560 [Info] [672438458] app/dispatcher: taking detour [proxy] for [tcp:log.strm.yandex.ru:443]
+2026/09/17 00:09:19.575560 [Info] [672438458] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:09:19.575560 from 127.0.0.1:62443 accepted //log.strm.yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:09:19.575560 [Info] [672438458] proxy/vless/outbound: tunneling request to tcp:log.strm.yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:09:21.692362 [Info] [1122817204] proxy/http: request to Method [CONNECT] Host [bam.nr-data.net:443] with URL [//bam.nr-data.net:443]
+2026/09/17 00:09:21.692362 [Info] [1122817204] app/dispatcher: taking detour [proxy] for [tcp:bam.nr-data.net:443]
+2026/09/17 00:09:21.692362 [Info] [1122817204] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:09:21.692362 from 127.0.0.1:62448 accepted //bam.nr-data.net:443 [http-in -> proxy]
+2026/09/17 00:09:21.692362 [Info] [1122817204] proxy/vless/outbound: tunneling request to tcp:bam.nr-data.net:443 via alt.dawg.su:8535
+2026/09/17 00:09:26.094749 [Info] [1955348917] proxy/http: request to Method [CONNECT] Host [yandex.ru:443] with URL [//yandex.ru:443]
+2026/09/17 00:09:26.094749 [Info] [1955348917] app/dispatcher: taking detour [proxy] for [tcp:yandex.ru:443]
+2026/09/17 00:09:26.094749 [Info] [1955348917] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:09:26.094749 from 127.0.0.1:62460 accepted //yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:09:26.094749 [Info] [1955348917] proxy/vless/outbound: tunneling request to tcp:yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:09:26.771717 from 127.0.0.1:62461 accepted //strm-ams25.strm.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:09:26.771717 [Info] [2023817488] proxy/http: request to Method [CONNECT] Host [strm-ams25.strm.yandex.net:443] with URL [//strm-ams25.strm.yandex.net:443]
+2026/09/17 00:09:26.771717 [Info] [2023817488] app/dispatcher: taking detour [proxy] for [tcp:strm-ams25.strm.yandex.net:443]
+2026/09/17 00:09:26.771717 [Info] [2023817488] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:09:26.771717 [Info] [2023817488] proxy/vless/outbound: tunneling request to tcp:strm-ams25.strm.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:09:28.341681 [Info] [3034463479] proxy/http: request to Method [CONNECT] Host [strm.yandex.ru:443] with URL [//strm.yandex.ru:443]
+2026/09/17 00:09:28.341681 [Info] [3034463479] app/dispatcher: taking detour [proxy] for [tcp:strm.yandex.ru:443]
+2026/09/17 00:09:28.341681 [Info] [3034463479] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:09:28.341681 from 127.0.0.1:62466 accepted //strm.yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:09:28.341681 [Info] [3034463479] proxy/vless/outbound: tunneling request to tcp:strm.yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:09:29.710558 [Info] [3940313672] proxy/http: request to Method [CONNECT] Host [log.strm.yandex.ru:443] with URL [//log.strm.yandex.ru:443]
+2026/09/17 00:09:29.710558 [Info] [3940313672] app/dispatcher: taking detour [proxy] for [tcp:log.strm.yandex.ru:443]
+2026/09/17 00:09:29.710558 [Info] [3940313672] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:09:29.710558 [Info] [3940313672] proxy/vless/outbound: tunneling request to tcp:log.strm.yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:09:29.710558 from 127.0.0.1:62469 accepted //log.strm.yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:09:31.713534 [Info] [1047026384] proxy/http: request to Method [CONNECT] Host [bam.nr-data.net:443] with URL [//bam.nr-data.net:443]
+2026/09/17 00:09:31.713534 [Info] [1047026384] app/dispatcher: taking detour [proxy] for [tcp:bam.nr-data.net:443]
+2026/09/17 00:09:31.713534 [Info] [1047026384] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:09:31.713534 from 127.0.0.1:62478 accepted //bam.nr-data.net:443 [http-in -> proxy]
+2026/09/17 00:09:31.713534 [Info] [1047026384] proxy/vless/outbound: tunneling request to tcp:bam.nr-data.net:443 via alt.dawg.su:8535
+2026/09/17 00:09:38.771765 [Info] [64678070] proxy/http: request to Method [CONNECT] Host [strm-ams25.strm.yandex.net:443] with URL [//strm-ams25.strm.yandex.net:443]
+2026/09/17 00:09:38.771765 [Info] [64678070] app/dispatcher: taking detour [proxy] for [tcp:strm-ams25.strm.yandex.net:443]
+2026/09/17 00:09:38.771765 [Info] [64678070] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:09:38.771765 from 127.0.0.1:62493 accepted //strm-ams25.strm.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:09:38.772272 [Info] [64678070] proxy/vless/outbound: tunneling request to tcp:strm-ams25.strm.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:09:39.507982 [Info] [2467248954] proxy/http: request to Method [CONNECT] Host [log.strm.yandex.ru:443] with URL [//log.strm.yandex.ru:443]
+2026/09/17 00:09:39.507982 [Info] [2467248954] app/dispatcher: taking detour [proxy] for [tcp:log.strm.yandex.ru:443]
+2026/09/17 00:09:39.507982 from 127.0.0.1:62496 accepted //log.strm.yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:09:39.507982 [Info] [2467248954] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:09:39.507982 [Info] [2467248954] proxy/vless/outbound: tunneling request to tcp:log.strm.yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:09:41.102078 [Info] [2754739699] proxy/http: request to Method [CONNECT] Host [yandex.ru:443] with URL [//yandex.ru:443]
+2026/09/17 00:09:41.102078 [Info] [2754739699] app/dispatcher: taking detour [proxy] for [tcp:yandex.ru:443]
+2026/09/17 00:09:41.102078 [Info] [2754739699] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:09:41.102078 from 127.0.0.1:62501 accepted //yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:09:41.102078 [Info] [2754739699] proxy/vless/outbound: tunneling request to tcp:yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:09:41.719863 [Info] [830369520] proxy/http: request to Method [CONNECT] Host [bam.nr-data.net:443] with URL [//bam.nr-data.net:443]
+2026/09/17 00:09:41.719863 [Info] [830369520] app/dispatcher: taking detour [proxy] for [tcp:bam.nr-data.net:443]
+2026/09/17 00:09:41.719863 from 127.0.0.1:62502 accepted //bam.nr-data.net:443 [http-in -> proxy]
+2026/09/17 00:09:41.719863 [Info] [830369520] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:09:41.719863 [Info] [830369520] proxy/vless/outbound: tunneling request to tcp:bam.nr-data.net:443 via alt.dawg.su:8535
+2026/09/17 00:09:46.680319 [Info] [3924802219] proxy/http: request to Method [CONNECT] Host [strm-ams25.strm.yandex.net:443] with URL [//strm-ams25.strm.yandex.net:443]
+2026/09/17 00:09:46.680319 [Info] [3924802219] app/dispatcher: taking detour [proxy] for [tcp:strm-ams25.strm.yandex.net:443]
+2026/09/17 00:09:46.680319 [Info] [3924802219] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:09:46.680319 from 127.0.0.1:62513 accepted //strm-ams25.strm.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:09:46.680319 [Info] [3924802219] proxy/vless/outbound: tunneling request to tcp:strm-ams25.strm.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:09:48.572716 [Info] [2956396707] proxy/http: request to Method [CONNECT] Host [alt.dawg.su:443] with URL [//alt.dawg.su:443]
+2026/09/17 00:09:48.572716 [Info] [2956396707] app/dispatcher: taking detour [proxy] for [tcp:alt.dawg.su:443]
+2026/09/17 00:09:48.572716 [Info] [2956396707] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:09:48.572716 from 127.0.0.1:62516 accepted //alt.dawg.su:443 [http-in -> proxy]
+2026/09/17 00:09:48.572716 [Info] [2956396707] proxy/vless/outbound: tunneling request to tcp:alt.dawg.su:443 via alt.dawg.su:8535
+2026/09/17 00:09:48.575623 [Info] [3130327067] proxy/http: request to Method [CONNECT] Host [alt.dawg.su:443] with URL [//alt.dawg.su:443]
+2026/09/17 00:09:48.576134 [Info] [3130327067] app/dispatcher: taking detour [proxy] for [tcp:alt.dawg.su:443]
+2026/09/17 00:09:48.576134 [Info] [3130327067] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:09:48.576134 from 127.0.0.1:62518 accepted //alt.dawg.su:443 [http-in -> proxy]
+2026/09/17 00:09:48.576134 [Info] [3130327067] proxy/vless/outbound: tunneling request to tcp:alt.dawg.su:443 via alt.dawg.su:8535
+2026/09/17 00:09:48.576134 [Info] [3001176072] proxy/http: request to Method [CONNECT] Host [alt.dawg.su:443] with URL [//alt.dawg.su:443]
+2026/09/17 00:09:48.576134 [Info] [3001176072] app/dispatcher: taking detour [proxy] for [tcp:alt.dawg.su:443]
+2026/09/17 00:09:48.576134 [Info] [3001176072] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:09:48.576134 from 127.0.0.1:62517 accepted //alt.dawg.su:443 [http-in -> proxy]
+2026/09/17 00:09:48.576134 [Info] [3001176072] proxy/vless/outbound: tunneling request to tcp:alt.dawg.su:443 via alt.dawg.su:8535
+2026/09/17 00:09:51.726748 [Info] [1912168811] proxy/http: request to Method [CONNECT] Host [bam.nr-data.net:443] with URL [//bam.nr-data.net:443]
+2026/09/17 00:09:51.728272 [Info] [1912168811] app/dispatcher: taking detour [proxy] for [tcp:bam.nr-data.net:443]
+2026/09/17 00:09:51.728272 [Info] [1912168811] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:09:51.728272 from 127.0.0.1:62525 accepted //bam.nr-data.net:443 [http-in -> proxy]
+2026/09/17 00:09:51.728272 [Info] [1912168811] proxy/vless/outbound: tunneling request to tcp:bam.nr-data.net:443 via alt.dawg.su:8535
+2026/09/17 00:09:58.345522 [Info] [931387832] proxy/http: request to Method [CONNECT] Host [strm.yandex.ru:443] with URL [//strm.yandex.ru:443]
+2026/09/17 00:09:58.345522 [Info] [931387832] app/dispatcher: taking detour [proxy] for [tcp:strm.yandex.ru:443]
+2026/09/17 00:09:58.345522 [Info] [931387832] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:09:58.345522 from 127.0.0.1:62540 accepted //strm.yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:09:58.345522 [Info] [931387832] proxy/vless/outbound: tunneling request to tcp:strm.yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:09:58.979719 [Info] [4065539748] proxy/http: request to Method [CONNECT] Host [strm-ams25.strm.yandex.net:443] with URL [//strm-ams25.strm.yandex.net:443]
+2026/09/17 00:09:58.979719 [Info] [4065539748] app/dispatcher: taking detour [proxy] for [tcp:strm-ams25.strm.yandex.net:443]
+2026/09/17 00:09:58.979719 [Info] [4065539748] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:09:58.979719 from 127.0.0.1:62542 accepted //strm-ams25.strm.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:09:58.979719 [Info] [4065539748] proxy/vless/outbound: tunneling request to tcp:strm-ams25.strm.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:10:01.738273 [Info] [245289574] proxy/http: request to Method [CONNECT] Host [bam.nr-data.net:443] with URL [//bam.nr-data.net:443]
+2026/09/17 00:10:01.738273 [Info] [245289574] app/dispatcher: taking detour [proxy] for [tcp:bam.nr-data.net:443]
+2026/09/17 00:10:01.738273 [Info] [245289574] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:10:01.738273 from 127.0.0.1:62549 accepted //bam.nr-data.net:443 [http-in -> proxy]
+2026/09/17 00:10:01.738827 [Info] [245289574] proxy/vless/outbound: tunneling request to tcp:bam.nr-data.net:443 via alt.dawg.su:8535
+2026/09/17 00:10:03.634437 [Info] [761767212] proxy/http: request to Method [CONNECT] Host [log.strm.yandex.ru:443] with URL [//log.strm.yandex.ru:443]
+2026/09/17 00:10:03.634437 [Info] [761767212] app/dispatcher: taking detour [proxy] for [tcp:log.strm.yandex.ru:443]
+2026/09/17 00:10:03.634968 [Info] [761767212] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:10:03.634968 from 127.0.0.1:62554 accepted //log.strm.yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:10:03.634968 [Info] [761767212] proxy/vless/outbound: tunneling request to tcp:log.strm.yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:10:06.873654 [Info] [11530662] proxy/http: request to Method [CONNECT] Host [strm-ams25.strm.yandex.net:443] with URL [//strm-ams25.strm.yandex.net:443]
+2026/09/17 00:10:06.873654 [Info] [11530662] app/dispatcher: taking detour [proxy] for [tcp:strm-ams25.strm.yandex.net:443]
+2026/09/17 00:10:06.873654 [Info] [11530662] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:10:06.873654 from 127.0.0.1:62561 accepted //strm-ams25.strm.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:10:06.873654 [Info] [11530662] proxy/vless/outbound: tunneling request to tcp:strm-ams25.strm.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:10:09.598554 [Info] [3453449943] proxy/http: request to Method [CONNECT] Host [log.strm.yandex.ru:443] with URL [//log.strm.yandex.ru:443]
+2026/09/17 00:10:09.598554 [Info] [3453449943] app/dispatcher: taking detour [proxy] for [tcp:log.strm.yandex.ru:443]
+2026/09/17 00:10:09.598554 [Info] [3453449943] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:10:09.598554 from 127.0.0.1:62568 accepted //log.strm.yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:10:09.598554 [Info] [3453449943] proxy/vless/outbound: tunneling request to tcp:log.strm.yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:10:11.108233 [Info] [3125494021] proxy/http: request to Method [CONNECT] Host [yandex.ru:443] with URL [//yandex.ru:443]
+2026/09/17 00:10:11.108233 [Info] [3125494021] app/dispatcher: taking detour [proxy] for [tcp:yandex.ru:443]
+2026/09/17 00:10:11.108233 [Info] [3125494021] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:10:11.108233 from 127.0.0.1:62571 accepted //yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:10:11.108233 [Info] [3125494021] proxy/vless/outbound: tunneling request to tcp:yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:10:11.754903 [Info] [1309631996] proxy/http: request to Method [CONNECT] Host [bam.nr-data.net:443] with URL [//bam.nr-data.net:443]
+2026/09/17 00:10:11.754903 [Info] [1309631996] app/dispatcher: taking detour [proxy] for [tcp:bam.nr-data.net:443]
+2026/09/17 00:10:11.754903 [Info] [1309631996] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:10:11.754903 from 127.0.0.1:62574 accepted //bam.nr-data.net:443 [http-in -> proxy]
+2026/09/17 00:10:11.755429 [Info] [1309631996] proxy/vless/outbound: tunneling request to tcp:bam.nr-data.net:443 via alt.dawg.su:8535
+2026/09/17 00:10:14.886673 [Info] [3766032141] proxy/http: request to Method [CONNECT] Host [chat-api.medal.tv:443] with URL [//chat-api.medal.tv:443]
+2026/09/17 00:10:14.886673 [Info] [3766032141] app/dispatcher: taking detour [proxy] for [tcp:chat-api.medal.tv:443]
+2026/09/17 00:10:14.886673 [Info] [3766032141] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:10:14.886673 from 127.0.0.1:58925 accepted //chat-api.medal.tv:443 [http-in -> proxy]
+2026/09/17 00:10:14.886673 [Info] [3766032141] proxy/vless/outbound: tunneling request to tcp:chat-api.medal.tv:443 via alt.dawg.su:8535
+2026/09/17 00:10:18.870141 [Info] [1784242943] proxy/http: request to Method [CONNECT] Host [strm-ams25.strm.yandex.net:443] with URL [//strm-ams25.strm.yandex.net:443]
+2026/09/17 00:10:18.870141 [Info] [1784242943] app/dispatcher: taking detour [proxy] for [tcp:strm-ams25.strm.yandex.net:443]
+2026/09/17 00:10:18.870141 [Info] [1784242943] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:10:18.870696 from 127.0.0.1:58934 accepted //strm-ams25.strm.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:10:18.870696 [Info] [1784242943] proxy/vless/outbound: tunneling request to tcp:strm-ams25.strm.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:10:21.771213 [Info] [3198898249] proxy/http: request to Method [CONNECT] Host [bam.nr-data.net:443] with URL [//bam.nr-data.net:443]
+2026/09/17 00:10:21.771213 [Info] [3198898249] app/dispatcher: taking detour [proxy] for [tcp:bam.nr-data.net:443]
+2026/09/17 00:10:21.771213 [Info] [3198898249] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:10:21.771213 from 127.0.0.1:58941 accepted //bam.nr-data.net:443 [http-in -> proxy]
+2026/09/17 00:10:21.771213 [Info] [3198898249] proxy/vless/outbound: tunneling request to tcp:bam.nr-data.net:443 via alt.dawg.su:8535
+2026/09/17 00:10:26.869784 [Info] [941690381] proxy/http: request to Method [CONNECT] Host [strm-ams25.strm.yandex.net:443] with URL [//strm-ams25.strm.yandex.net:443]
+2026/09/17 00:10:26.871980 [Info] [941690381] app/dispatcher: taking detour [proxy] for [tcp:strm-ams25.strm.yandex.net:443]
+2026/09/17 00:10:26.871980 [Info] [941690381] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:10:26.871980 [Info] [941690381] proxy/vless/outbound: tunneling request to tcp:strm-ams25.strm.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:10:26.869784 from 127.0.0.1:58952 accepted //strm-ams25.strm.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:10:27.798655 [Info] [3357764146] proxy/http: request to Method [CONNECT] Host [desktop.postman.com:443] with URL [//desktop.postman.com:443]
+2026/09/17 00:10:27.798655 [Info] [3357764146] app/dispatcher: taking detour [proxy] for [tcp:desktop.postman.com:443]
+2026/09/17 00:10:27.798655 [Info] [3357764146] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:10:27.798655 from 127.0.0.1:58955 accepted //desktop.postman.com:443 [http-in -> proxy]
+2026/09/17 00:10:27.798655 [Info] [3357764146] proxy/vless/outbound: tunneling request to tcp:desktop.postman.com:443 via alt.dawg.su:8535
+2026/09/17 00:10:28.344878 [Info] [520377729] proxy/http: request to Method [CONNECT] Host [strm.yandex.ru:443] with URL [//strm.yandex.ru:443]
+2026/09/17 00:10:28.346412 [Info] [520377729] app/dispatcher: taking detour [proxy] for [tcp:strm.yandex.ru:443]
+2026/09/17 00:10:28.346412 [Info] [520377729] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:10:28.346412 from 127.0.0.1:58956 accepted //strm.yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:10:28.346412 [Info] [520377729] proxy/vless/outbound: tunneling request to tcp:strm.yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:10:33.696843 [Info] [328135463] proxy/http: request to Method [CONNECT] Host [log.strm.yandex.ru:443] with URL [//log.strm.yandex.ru:443]
+2026/09/17 00:10:33.697551 [Info] [328135463] app/dispatcher: taking detour [proxy] for [tcp:log.strm.yandex.ru:443]
+2026/09/17 00:10:33.697551 [Info] [328135463] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:10:33.697551 [Info] [328135463] proxy/vless/outbound: tunneling request to tcp:log.strm.yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:10:33.696843 from 127.0.0.1:57454 accepted //log.strm.yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:10:33.997118 [Info] [638838268] proxy/http: request to Method [GET] Host [ipv6.msftconnecttest.com] with URL [http://ipv6.msftconnecttest.com/connecttest.txt]
+2026/09/17 00:10:33.998661 [Info] [638838268] app/dispatcher: taking detour [proxy] for [tcp:ipv6.msftconnecttest.com:80]
+2026/09/17 00:10:33.998661 [Info] [638838268] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:10:33.998661 from 127.0.0.1:57456 accepted http://ipv6.msftconnecttest.com/connecttest.txt [http-in -> proxy]
+2026/09/17 00:10:33.998661 [Info] [638838268] proxy/vless/outbound: tunneling request to tcp:ipv6.msftconnecttest.com:80 via alt.dawg.su:8535
+2026/09/17 00:10:34.001214 [Info] [844938080] proxy/http: request to Method [GET] Host [www.msftconnecttest.com] with URL [http://www.msftconnecttest.com/connecttest.txt]
+2026/09/17 00:10:34.001214 [Info] [844938080] app/dispatcher: taking detour [proxy] for [tcp:www.msftconnecttest.com:80]
+2026/09/17 00:10:34.001214 from 127.0.0.1:57458 accepted http://www.msftconnecttest.com/connecttest.txt [http-in -> proxy]
+2026/09/17 00:10:34.001214 [Info] [844938080] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:10:34.001214 [Info] [844938080] proxy/vless/outbound: tunneling request to tcp:www.msftconnecttest.com:80 via alt.dawg.su:8535
+2026/09/17 00:10:34.045490 [Info] [2681967781] proxy/http: request to Method [GET] Host [ipv6.msftconnecttest.com] with URL [http://ipv6.msftconnecttest.com/connecttest.txt]
+2026/09/17 00:10:34.045490 [Info] [2681967781] app/dispatcher: taking detour [proxy] for [tcp:ipv6.msftconnecttest.com:80]
+2026/09/17 00:10:34.045490 from 127.0.0.1:57460 accepted http://ipv6.msftconnecttest.com/connecttest.txt [http-in -> proxy]
+2026/09/17 00:10:34.045490 [Info] [2681967781] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:10:34.045490 [Info] [2681967781] proxy/vless/outbound: tunneling request to tcp:ipv6.msftconnecttest.com:80 via alt.dawg.su:8535
+2026/09/17 00:10:35.061555 [Warning] [638838268] proxy/http: failed to read response from ipv6.msftconnecttest.com > unexpected EOF
+2026/09/17 00:10:35.108457 [Warning] [2681967781] proxy/http: failed to read response from ipv6.msftconnecttest.com > unexpected EOF
+2026/09/17 00:10:41.095107 [Info] [2967797399] proxy/http: request to Method [CONNECT] Host [yandex.ru:443] with URL [//yandex.ru:443]
+2026/09/17 00:10:41.095107 [Info] [2967797399] app/dispatcher: taking detour [proxy] for [tcp:yandex.ru:443]
+2026/09/17 00:10:41.095107 [Info] [2967797399] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:10:41.095107 from 127.0.0.1:57471 accepted //yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:10:41.095107 [Info] [2967797399] proxy/vless/outbound: tunneling request to tcp:yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:10:56.803517 [Info] [1348535679] proxy/http: request to Method [CONNECT] Host [lh3.googleusercontent.com:443] with URL [//lh3.googleusercontent.com:443]
+2026/09/17 00:10:56.803517 [Info] [1348535679] app/dispatcher: taking detour [proxy] for [tcp:lh3.googleusercontent.com:443]
+2026/09/17 00:10:56.803517 from 127.0.0.1:57502 accepted //lh3.googleusercontent.com:443 [http-in -> proxy]
+2026/09/17 00:10:56.803517 [Info] [1348535679] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:10:56.803517 [Info] [1348535679] proxy/vless/outbound: tunneling request to tcp:lh3.googleusercontent.com:443 via alt.dawg.su:8535
+2026/09/17 00:10:56.865028 [Info] [1348535679] app/proxyman/outbound: app/proxyman/outbound: failed to process outbound traffic > proxy/vless/outbound: connection ends > proxy/vless/outbound: failed to transfer response payload > write tcp 127.0.0.1:10809->127.0.0.1:57502: wsasend: An established connection was aborted by the software in your host machine.
+2026/09/17 00:10:56.949484 [Info] [374563710] proxy/http: request to Method [CONNECT] Host [www.googleadservices.com:443] with URL [//www.googleadservices.com:443]
+2026/09/17 00:10:56.949484 [Info] [374563710] app/dispatcher: taking detour [proxy] for [tcp:www.googleadservices.com:443]
+2026/09/17 00:10:56.949484 [Info] [374563710] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:10:56.949484 from 127.0.0.1:57506 accepted //www.googleadservices.com:443 [http-in -> proxy]
+2026/09/17 00:10:56.949484 [Info] [374563710] proxy/vless/outbound: tunneling request to tcp:www.googleadservices.com:443 via alt.dawg.su:8535
+2026/09/17 00:10:57.004213 [Info] [3633177078] proxy/http: request to Method [CONNECT] Host [csp.withgoogle.com:443] with URL [//csp.withgoogle.com:443]
+2026/09/17 00:10:57.004730 [Info] [3633177078] app/dispatcher: taking detour [proxy] for [tcp:csp.withgoogle.com:443]
+2026/09/17 00:10:57.004730 [Info] [3633177078] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:10:57.004730 [Info] [3633177078] proxy/vless/outbound: tunneling request to tcp:csp.withgoogle.com:443 via alt.dawg.su:8535
+2026/09/17 00:10:57.004730 from 127.0.0.1:57508 accepted //csp.withgoogle.com:443 [http-in -> proxy]
+2026/09/17 00:10:57.049937 [Info] [3543322320] proxy/http: request to Method [CONNECT] Host [ogads-pa.clients6.google.com:443] with URL [//ogads-pa.clients6.google.com:443]
+2026/09/17 00:10:57.049937 [Info] [3543322320] app/dispatcher: taking detour [proxy] for [tcp:ogads-pa.clients6.google.com:443]
+2026/09/17 00:10:57.049937 from 127.0.0.1:57510 accepted //ogads-pa.clients6.google.com:443 [http-in -> proxy]
+2026/09/17 00:10:57.049937 [Info] [3543322320] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:10:57.050487 [Info] [3543322320] proxy/vless/outbound: tunneling request to tcp:ogads-pa.clients6.google.com:443 via alt.dawg.su:8535
+2026/09/17 00:10:57.171146 [Info] [1773243109] proxy/http: request to Method [CONNECT] Host [ogads-pa.clients6.google.com:443] with URL [//ogads-pa.clients6.google.com:443]
+2026/09/17 00:10:57.171658 [Info] [1773243109] app/dispatcher: taking detour [proxy] for [tcp:ogads-pa.clients6.google.com:443]
+2026/09/17 00:10:57.171658 [Info] [1773243109] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:10:57.171658 from 127.0.0.1:57509 accepted //ogads-pa.clients6.google.com:443 [http-in -> proxy]
+2026/09/17 00:10:57.171658 [Info] [1773243109] proxy/vless/outbound: tunneling request to tcp:ogads-pa.clients6.google.com:443 via alt.dawg.su:8535
+2026/09/17 00:10:57.392406 [Info] [3159448695] proxy/http: request to Method [CONNECT] Host [ep1.adtrafficquality.google:443] with URL [//ep1.adtrafficquality.google:443]
+2026/09/17 00:10:57.392406 [Info] [3159448695] app/dispatcher: taking detour [proxy] for [tcp:ep1.adtrafficquality.google:443]
+2026/09/17 00:10:57.392406 from 127.0.0.1:57511 accepted //ep1.adtrafficquality.google:443 [http-in -> proxy]
+2026/09/17 00:10:57.392406 [Info] [3159448695] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:10:57.392406 [Info] [3159448695] proxy/vless/outbound: tunneling request to tcp:ep1.adtrafficquality.google:443 via alt.dawg.su:8535
+2026/09/17 00:10:57.541476 [Info] [329400858] proxy/http: request to Method [CONNECT] Host [ep2.adtrafficquality.google:443] with URL [//ep2.adtrafficquality.google:443]
+2026/09/17 00:10:57.541476 [Info] [329400858] app/dispatcher: taking detour [proxy] for [tcp:ep2.adtrafficquality.google:443]
+2026/09/17 00:10:57.541476 [Info] [329400858] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:10:57.541476 from 127.0.0.1:57512 accepted //ep2.adtrafficquality.google:443 [http-in -> proxy]
+2026/09/17 00:10:57.541476 [Info] [329400858] proxy/vless/outbound: tunneling request to tcp:ep2.adtrafficquality.google:443 via alt.dawg.su:8535
+2026/09/17 00:10:58.315311 [Info] [500140264] proxy/http: request to Method [CONNECT] Host [ep1.adtrafficquality.google:443] with URL [//ep1.adtrafficquality.google:443]
+2026/09/17 00:10:58.315311 [Info] [500140264] app/dispatcher: taking detour [proxy] for [tcp:ep1.adtrafficquality.google:443]
+2026/09/17 00:10:58.315311 from 127.0.0.1:57516 accepted //ep1.adtrafficquality.google:443 [http-in -> proxy]
+2026/09/17 00:10:58.315311 [Info] [500140264] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:10:58.344940 [Info] [3852128009] proxy/http: request to Method [CONNECT] Host [strm.yandex.ru:443] with URL [//strm.yandex.ru:443]
+2026/09/17 00:10:58.344940 [Info] [3852128009] app/dispatcher: taking detour [proxy] for [tcp:strm.yandex.ru:443]
+2026/09/17 00:10:58.344940 [Info] [3852128009] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:10:58.344940 from 127.0.0.1:57517 accepted //strm.yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:10:58.391086 [Info] [500140264] proxy/vless/outbound: tunneling request to tcp:ep1.adtrafficquality.google:443 via alt.dawg.su:8535
+2026/09/17 00:10:58.412227 [Info] [3852128009] proxy/vless/outbound: tunneling request to tcp:strm.yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:11:01.046224 [Info] [4030249424] proxy/http: request to Method [CONNECT] Host [ogs.google.com:443] with URL [//ogs.google.com:443]
+2026/09/17 00:11:01.046745 [Info] [4030249424] app/dispatcher: taking detour [proxy] for [tcp:ogs.google.com:443]
+2026/09/17 00:11:01.046745 [Info] [4030249424] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:11:01.046745 [Info] [4030249424] proxy/vless/outbound: tunneling request to tcp:ogs.google.com:443 via alt.dawg.su:8535
+2026/09/17 00:11:01.046745 from 127.0.0.1:57524 accepted //ogs.google.com:443 [http-in -> proxy]
+2026/09/17 00:11:01.304611 [Info] [2238484845] proxy/http: request to Method [CONNECT] Host [ogs.google.com:443] with URL [//ogs.google.com:443]
+2026/09/17 00:11:01.304611 [Info] [2238484845] app/dispatcher: taking detour [proxy] for [tcp:ogs.google.com:443]
+2026/09/17 00:11:01.304611 [Info] [2238484845] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:11:01.304611 from 127.0.0.1:57526 accepted //ogs.google.com:443 [http-in -> proxy]
+2026/09/17 00:11:01.304611 [Info] [2238484845] proxy/vless/outbound: tunneling request to tcp:ogs.google.com:443 via alt.dawg.su:8535
+2026/09/17 00:11:01.308194 [Info] [518404121] proxy/http: request to Method [CONNECT] Host [ogs.google.com:443] with URL [//ogs.google.com:443]
+2026/09/17 00:11:01.308702 [Info] [518404121] app/dispatcher: taking detour [proxy] for [tcp:ogs.google.com:443]
+2026/09/17 00:11:01.308702 from 127.0.0.1:57527 accepted //ogs.google.com:443 [http-in -> proxy]
+2026/09/17 00:11:01.308702 [Info] [518404121] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:11:01.379440 [Info] [518404121] proxy/vless/outbound: tunneling request to tcp:ogs.google.com:443 via alt.dawg.su:8535
+2026/09/17 00:11:02.645065 [Info] [2122291979] app/proxyman/inbound: connection ends > proxy/http: failed to read http request > EOF
+2026/09/17 00:11:02.645065 [Info] [2379760004] app/proxyman/inbound: connection ends > proxy/http: failed to read http request > EOF
+2026/09/17 00:11:02.645065 [Info] [1776929311] app/proxyman/inbound: connection ends > proxy/http: failed to read http request > EOF
+2026/09/17 00:11:02.645065 [Info] [4184325874] app/proxyman/inbound: connection ends > proxy/http: failed to read http request > EOF
+2026/09/17 00:11:03.344848 [Info] [2197871420] proxy/http: request to Method [CONNECT] Host [www.gstatic.com:443] with URL [//www.gstatic.com:443]
+2026/09/17 00:11:03.345353 [Info] [2197871420] app/dispatcher: taking detour [proxy] for [tcp:www.gstatic.com:443]
+2026/09/17 00:11:03.345353 [Info] [2197871420] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:11:03.345353 from 127.0.0.1:57532 accepted //www.gstatic.com:443 [http-in -> proxy]
+2026/09/17 00:11:03.345353 [Info] [2197871420] proxy/vless/outbound: tunneling request to tcp:www.gstatic.com:443 via alt.dawg.su:8535
+2026/09/17 00:11:03.360188 [Info] [1660044428] proxy/http: request to Method [CONNECT] Host [www.gstatic.com:443] with URL [//www.gstatic.com:443]
+2026/09/17 00:11:03.360188 [Info] [1660044428] app/dispatcher: taking detour [proxy] for [tcp:www.gstatic.com:443]
+2026/09/17 00:11:03.360188 from 127.0.0.1:57533 accepted //www.gstatic.com:443 [http-in -> proxy]
+2026/09/17 00:11:03.360188 [Info] [1660044428] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:11:03.360188 [Info] [1660044428] proxy/vless/outbound: tunneling request to tcp:www.gstatic.com:443 via alt.dawg.su:8535
+2026/09/17 00:11:03.370454 [Info] [3740719685] proxy/http: request to Method [CONNECT] Host [www.gstatic.com:443] with URL [//www.gstatic.com:443]
+2026/09/17 00:11:03.370454 [Info] [3740719685] app/dispatcher: taking detour [proxy] for [tcp:www.gstatic.com:443]
+2026/09/17 00:11:03.370454 from 127.0.0.1:57534 accepted //www.gstatic.com:443 [http-in -> proxy]
+2026/09/17 00:11:03.370454 [Info] [3740719685] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:11:03.443235 [Info] [3740719685] proxy/vless/outbound: tunneling request to tcp:www.gstatic.com:443 via alt.dawg.su:8535
+2026/09/17 00:11:03.649541 [Info] [1593881695] app/proxyman/inbound: connection ends > proxy/http: failed to read http request > EOF
+2026/09/17 00:11:04.725377 [Info] [521077708] app/proxyman/outbound: app/proxyman/outbound: failed to process outbound traffic > proxy/vless/outbound: connection ends > proxy/vless/outbound: failed to transfer response payload > write tcp 127.0.0.1:10809->127.0.0.1:59704: wsasend: An established connection was aborted by the software in your host machine.
+2026/09/17 00:11:05.426108 [Info] [576007829] proxy/http: request to Method [CONNECT] Host [cdn.medal.tv:443] with URL [//cdn.medal.tv:443]
+2026/09/17 00:11:05.426108 [Info] [576007829] app/dispatcher: taking detour [proxy] for [tcp:cdn.medal.tv:443]
+2026/09/17 00:11:05.426108 [Info] [576007829] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:11:05.426108 from 127.0.0.1:57539 accepted //cdn.medal.tv:443 [http-in -> proxy]
+2026/09/17 00:11:05.427131 [Info] [576007829] proxy/vless/outbound: tunneling request to tcp:cdn.medal.tv:443 via alt.dawg.su:8535
+2026/09/17 00:11:06.305885 [Info] [2552840240] proxy/http: request to Method [CONNECT] Host [main.vscode-cdn.net:443] with URL [//main.vscode-cdn.net:443]
+2026/09/17 00:11:06.305885 [Info] [2552840240] app/dispatcher: taking detour [proxy] for [tcp:main.vscode-cdn.net:443]
+2026/09/17 00:11:06.305885 [Info] [2552840240] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:11:06.305885 from 127.0.0.1:53755 accepted //main.vscode-cdn.net:443 [http-in -> proxy]
+2026/09/17 00:11:06.305885 [Info] [2552840240] proxy/vless/outbound: tunneling request to tcp:main.vscode-cdn.net:443 via alt.dawg.su:8535
+2026/09/17 00:11:06.662877 [Info] [1415267660] app/proxyman/inbound: connection ends > proxy/http: failed to read http request > EOF
+2026/09/17 00:11:08.133381 [Info] [3630541343] proxy/http: request to Method [CONNECT] Host [default.exp-tas.com:443] with URL [//default.exp-tas.com:443]
+2026/09/17 00:11:08.133381 [Info] [3630541343] app/dispatcher: taking detour [proxy] for [tcp:default.exp-tas.com:443]
+2026/09/17 00:11:08.133381 [Info] [3630541343] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:11:08.133381 from 127.0.0.1:63123 accepted //default.exp-tas.com:443 [http-in -> proxy]
+2026/09/17 00:11:08.133381 [Info] [3630541343] proxy/vless/outbound: tunneling request to tcp:default.exp-tas.com:443 via alt.dawg.su:8535
+2026/09/17 00:11:08.133705 [Info] [758917176] proxy/http: request to Method [CONNECT] Host [exp.individual.githubcopilot.com:443] with URL [//exp.individual.githubcopilot.com:443]
+2026/09/17 00:11:08.133705 [Info] [758917176] app/dispatcher: taking detour [proxy] for [tcp:exp.individual.githubcopilot.com:443]
+2026/09/17 00:11:08.133705 [Info] [758917176] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:11:08.133705 from 127.0.0.1:52776 accepted //exp.individual.githubcopilot.com:443 [http-in -> proxy]
+2026/09/17 00:11:08.133705 [Info] [758917176] proxy/vless/outbound: tunneling request to tcp:exp.individual.githubcopilot.com:443 via alt.dawg.su:8535
+2026/09/17 00:11:09.592010 [Info] [2806030828] proxy/http: request to Method [CONNECT] Host [main.vscode-cdn.net:443] with URL [//main.vscode-cdn.net:443]
+2026/09/17 00:11:09.592010 [Info] [2806030828] app/dispatcher: taking detour [proxy] for [tcp:main.vscode-cdn.net:443]
+2026/09/17 00:11:09.592010 [Info] [2806030828] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:11:09.592010 [Info] [2806030828] proxy/vless/outbound: tunneling request to tcp:main.vscode-cdn.net:443 via alt.dawg.su:8535
+2026/09/17 00:11:09.592010 from 127.0.0.1:49669 accepted //main.vscode-cdn.net:443 [http-in -> proxy]
+2026/09/17 00:11:09.692393 [Info] [583414773] proxy/http: request to Method [CONNECT] Host [default.exp-tas.com:443] with URL [//default.exp-tas.com:443]
+2026/09/17 00:11:09.692393 [Info] [583414773] app/dispatcher: taking detour [proxy] for [tcp:default.exp-tas.com:443]
+2026/09/17 00:11:09.692393 [Info] [583414773] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:11:09.692393 from 127.0.0.1:55137 accepted //default.exp-tas.com:443 [http-in -> proxy]
+2026/09/17 00:11:09.692393 [Info] [583414773] proxy/vless/outbound: tunneling request to tcp:default.exp-tas.com:443 via alt.dawg.su:8535
+2026/09/17 00:11:09.693910 [Info] [3866078621] proxy/http: request to Method [CONNECT] Host [exp.individual.githubcopilot.com:443] with URL [//exp.individual.githubcopilot.com:443]
+2026/09/17 00:11:09.693910 [Info] [3866078621] app/dispatcher: taking detour [proxy] for [tcp:exp.individual.githubcopilot.com:443]
+2026/09/17 00:11:09.693910 [Info] [3866078621] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:11:09.693910 from 127.0.0.1:59150 accepted //exp.individual.githubcopilot.com:443 [http-in -> proxy]
+2026/09/17 00:11:09.693910 [Info] [3866078621] proxy/vless/outbound: tunneling request to tcp:exp.individual.githubcopilot.com:443 via alt.dawg.su:8535
+2026/09/17 00:11:09.871151 [Info] [3789991770] proxy/http: request to Method [CONNECT] Host [westus-0.in.applicationinsights.azure.com:443] with URL [//westus-0.in.applicationinsights.azure.com:443]
+2026/09/17 00:11:09.871661 [Info] [3789991770] app/dispatcher: taking detour [proxy] for [tcp:westus-0.in.applicationinsights.azure.com:443]
+2026/09/17 00:11:09.871661 from 127.0.0.1:59153 accepted //westus-0.in.applicationinsights.azure.com:443 [http-in -> proxy]
+2026/09/17 00:11:09.871661 [Info] [3789991770] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:11:09.871661 [Info] [3789991770] proxy/vless/outbound: tunneling request to tcp:westus-0.in.applicationinsights.azure.com:443 via alt.dawg.su:8535
+2026/09/17 00:11:10.001682 [Info] [4277622334] proxy/http: request to Method [CONNECT] Host [default.exp-tas.com:443] with URL [//default.exp-tas.com:443]
+2026/09/17 00:11:10.001682 [Info] [4277622334] app/dispatcher: taking detour [proxy] for [tcp:default.exp-tas.com:443]
+2026/09/17 00:11:10.001682 [Info] [4277622334] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:11:10.001682 from 127.0.0.1:59154 accepted //default.exp-tas.com:443 [http-in -> proxy]
+2026/09/17 00:11:10.002212 [Info] [4277622334] proxy/vless/outbound: tunneling request to tcp:default.exp-tas.com:443 via alt.dawg.su:8535
+2026/09/17 00:11:10.304540 [Info] [3715996901] proxy/http: request to Method [CONNECT] Host [mobile.events.data.microsoft.com:443] with URL [//mobile.events.data.microsoft.com:443]
+2026/09/17 00:11:10.304540 [Info] [3715996901] app/dispatcher: taking detour [proxy] for [tcp:mobile.events.data.microsoft.com:443]
+2026/09/17 00:11:10.304540 [Info] [3715996901] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:11:10.304540 from 127.0.0.1:59318 accepted //mobile.events.data.microsoft.com:443 [http-in -> proxy]
+2026/09/17 00:11:10.304540 [Info] [3715996901] proxy/vless/outbound: tunneling request to tcp:mobile.events.data.microsoft.com:443 via alt.dawg.su:8535
+2026/09/17 00:11:18.344682 [Info] [3228761315] proxy/http: request to Method [CONNECT] Host [incoming.telemetry.mozilla.org:443] with URL [//incoming.telemetry.mozilla.org:443]
+2026/09/17 00:11:18.344682 [Info] [3228761315] app/dispatcher: taking detour [proxy] for [tcp:incoming.telemetry.mozilla.org:443]
+2026/09/17 00:11:18.344682 [Info] [3228761315] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:11:18.344682 from 127.0.0.1:59334 accepted //incoming.telemetry.mozilla.org:443 [http-in -> proxy]
+2026/09/17 00:11:18.344682 [Info] [3228761315] proxy/vless/outbound: tunneling request to tcp:incoming.telemetry.mozilla.org:443 via alt.dawg.su:8535
+2026/09/17 00:11:28.342945 [Info] [1897153577] proxy/http: request to Method [CONNECT] Host [strm.yandex.ru:443] with URL [//strm.yandex.ru:443]
+2026/09/17 00:11:28.342945 from 127.0.0.1:59355 accepted //strm.yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:11:28.342945 [Info] [1897153577] app/dispatcher: taking detour [proxy] for [tcp:strm.yandex.ru:443]
+2026/09/17 00:11:28.342945 [Info] [1897153577] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:11:28.342945 [Info] [1897153577] proxy/vless/outbound: tunneling request to tcp:strm.yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:11:41.883491 [Info] [2157913591] proxy/http: request to Method [CONNECT] Host [bam.nr-data.net:443] with URL [//bam.nr-data.net:443]
+2026/09/17 00:11:41.883491 [Info] [2157913591] app/dispatcher: taking detour [proxy] for [tcp:bam.nr-data.net:443]
+2026/09/17 00:11:41.883491 [Info] [2157913591] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:11:41.883491 from 127.0.0.1:59382 accepted //bam.nr-data.net:443 [http-in -> proxy]
+2026/09/17 00:11:41.883491 [Info] [2157913591] proxy/vless/outbound: tunneling request to tcp:bam.nr-data.net:443 via alt.dawg.su:8535
+2026/09/17 00:11:58.344897 [Info] [1390541721] proxy/http: request to Method [CONNECT] Host [strm.yandex.ru:443] with URL [//strm.yandex.ru:443]
+2026/09/17 00:11:58.344897 [Info] [1390541721] app/dispatcher: taking detour [proxy] for [tcp:strm.yandex.ru:443]
+2026/09/17 00:11:58.344897 [Info] [1390541721] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:11:58.344897 from 127.0.0.1:59417 accepted //strm.yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:11:58.345760 [Info] [1390541721] proxy/vless/outbound: tunneling request to tcp:strm.yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:12:00.815969 [Info] [1403016940] proxy/http: request to Method [CONNECT] Host [gstatic.com:443] with URL [//gstatic.com:443]
+2026/09/17 00:12:00.815969 [Info] [1403016940] app/dispatcher: taking detour [proxy] for [tcp:gstatic.com:443]
+2026/09/17 00:12:00.815969 [Info] [1403016940] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:12:00.817100 [Info] [4269924440] proxy/http: request to Method [CONNECT] Host [lens.usercontent.google.com:443] with URL [//lens.usercontent.google.com:443]
+2026/09/17 00:12:00.817100 [Info] [4269924440] app/dispatcher: taking detour [proxy] for [tcp:lens.usercontent.google.com:443]
+2026/09/17 00:12:00.817100 [Info] [4269924440] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:12:00.817100 from 127.0.0.1:59423 accepted //gstatic.com:443 [http-in -> proxy]
+2026/09/17 00:12:00.817100 from 127.0.0.1:59424 accepted //lens.usercontent.google.com:443 [http-in -> proxy]
+2026/09/17 00:12:00.817100 [Info] [1403016940] proxy/vless/outbound: tunneling request to tcp:gstatic.com:443 via alt.dawg.su:8535
+2026/09/17 00:12:00.817100 [Info] [4269924440] proxy/vless/outbound: tunneling request to tcp:lens.usercontent.google.com:443 via alt.dawg.su:8535
+2026/09/17 00:12:03.848563 [Info] [1504545761] proxy/http: request to Method [CONNECT] Host [log.strm.yandex.ru:443] with URL [//log.strm.yandex.ru:443]
+2026/09/17 00:12:03.848563 [Info] [1504545761] app/dispatcher: taking detour [proxy] for [tcp:log.strm.yandex.ru:443]
+2026/09/17 00:12:03.848563 [Info] [1504545761] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:12:03.848563 from 127.0.0.1:59430 accepted //log.strm.yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:12:03.850124 [Info] [1504545761] proxy/vless/outbound: tunneling request to tcp:log.strm.yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:12:05.107403 [Info] [1792197458] app/proxyman/inbound: connection ends > proxy/http: failed to read http request > EOF
+2026/09/17 00:12:07.122263 [Info] [451501966] app/proxyman/inbound: connection ends > proxy/http: failed to read http request > EOF
+2026/09/17 00:12:11.103233 [Info] [619751426] proxy/http: request to Method [CONNECT] Host [yandex.ru:443] with URL [//yandex.ru:443]
+2026/09/17 00:12:11.104749 [Info] [619751426] app/dispatcher: taking detour [proxy] for [tcp:yandex.ru:443]
+2026/09/17 00:12:11.104749 [Info] [619751426] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:12:11.104749 from 127.0.0.1:59445 accepted //yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:12:11.104749 [Info] [619751426] proxy/vless/outbound: tunneling request to tcp:yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:12:16.582748 [Info] [4164202911] proxy/http: request to Method [CONNECT] Host [api.music.yandex.net:443] with URL [//api.music.yandex.net:443]
+2026/09/17 00:12:16.582748 [Info] [4164202911] app/dispatcher: taking detour [proxy] for [tcp:api.music.yandex.net:443]
+2026/09/17 00:12:16.582748 [Info] [4164202911] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:12:16.582748 from 127.0.0.1:59458 accepted //api.music.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:12:16.582748 [Info] [4164202911] proxy/vless/outbound: tunneling request to tcp:api.music.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:12:16.839446 [Info] [3476927406] proxy/http: request to Method [CONNECT] Host [api.music.yandex.net:443] with URL [//api.music.yandex.net:443]
+2026/09/17 00:12:16.841358 [Info] [3476927406] app/dispatcher: taking detour [proxy] for [tcp:api.music.yandex.net:443]
+2026/09/17 00:12:16.841358 [Info] [3476927406] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:12:16.841358 [Info] [3476927406] proxy/vless/outbound: tunneling request to tcp:api.music.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:12:16.839446 from 127.0.0.1:59459 accepted //api.music.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:12:17.250909 [Info] [3544192861] proxy/http: request to Method [CONNECT] Host [avatars.yandex.net:443] with URL [//avatars.yandex.net:443]
+2026/09/17 00:12:17.250909 [Info] [3544192861] app/dispatcher: taking detour [proxy] for [tcp:avatars.yandex.net:443]
+2026/09/17 00:12:17.250909 [Info] [3544192861] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:12:17.250909 from 127.0.0.1:59460 accepted //avatars.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:12:17.250909 [Info] [3544192861] proxy/vless/outbound: tunneling request to tcp:avatars.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:12:17.257586 [Info] [1441306461] proxy/http: request to Method [CONNECT] Host [mc.yandex.com:443] with URL [//mc.yandex.com:443]
+2026/09/17 00:12:17.257586 [Info] [1441306461] app/dispatcher: taking detour [proxy] for [tcp:mc.yandex.com:443]
+2026/09/17 00:12:17.257586 from 127.0.0.1:59461 accepted //mc.yandex.com:443 [http-in -> proxy]
+2026/09/17 00:12:17.257586 [Info] [1441306461] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:12:17.344537 [Info] [1441306461] proxy/vless/outbound: tunneling request to tcp:mc.yandex.com:443 via alt.dawg.su:8535
+2026/09/17 00:12:17.878057 [Info] [2490224202] proxy/http: request to Method [CONNECT] Host [strm-ams24.strm.yandex.net:443] with URL [//strm-ams24.strm.yandex.net:443]
+2026/09/17 00:12:17.878057 [Info] [2490224202] app/dispatcher: taking detour [proxy] for [tcp:strm-ams24.strm.yandex.net:443]
+2026/09/17 00:12:17.878057 from 127.0.0.1:59464 accepted //strm-ams24.strm.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:12:17.878057 [Info] [2490224202] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:12:17.943422 [Info] [2490224202] proxy/vless/outbound: tunneling request to tcp:strm-ams24.strm.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:12:18.721434 [Info] [735185075] proxy/http: request to Method [CONNECT] Host [strm-fra-02.strm.yandex.net:443] with URL [//strm-fra-02.strm.yandex.net:443]
+2026/09/17 00:12:18.721434 [Info] [735185075] app/dispatcher: taking detour [proxy] for [tcp:strm-fra-02.strm.yandex.net:443]
+2026/09/17 00:12:18.721434 from 127.0.0.1:59467 accepted //strm-fra-02.strm.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:12:18.721434 [Info] [735185075] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:12:18.791609 [Info] [735185075] proxy/vless/outbound: tunneling request to tcp:strm-fra-02.strm.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:12:28.339807 [Info] [274227464] proxy/http: request to Method [CONNECT] Host [strm.yandex.ru:443] with URL [//strm.yandex.ru:443]
+2026/09/17 00:12:28.339807 [Info] [274227464] app/dispatcher: taking detour [proxy] for [tcp:strm.yandex.ru:443]
+2026/09/17 00:12:28.339807 [Info] [274227464] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:12:28.339807 from 127.0.0.1:51048 accepted //strm.yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:12:28.407384 [Info] [274227464] proxy/vless/outbound: tunneling request to tcp:strm.yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:12:35.227323 [Info] [3163070879] proxy/http: request to Method [CONNECT] Host [www.youtube.com:443] with URL [//www.youtube.com:443]
+2026/09/17 00:12:35.227323 [Info] [3163070879] app/dispatcher: taking detour [proxy] for [tcp:www.youtube.com:443]
+2026/09/17 00:12:35.227323 [Info] [3163070879] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:12:35.227323 from 127.0.0.1:51063 accepted //www.youtube.com:443 [http-in -> proxy]
+2026/09/17 00:12:35.302561 [Info] [3163070879] proxy/vless/outbound: tunneling request to tcp:www.youtube.com:443 via alt.dawg.su:8535
+2026/09/17 00:12:55.598521 [Info] [205147937] proxy/http: request to Method [GET] Host [ipv6.msftncsi.com] with URL [http://ipv6.msftncsi.com/connecttest.txt]
+2026/09/17 00:12:55.598521 [Info] [205147937] app/dispatcher: taking detour [proxy] for [tcp:ipv6.msftncsi.com:80]
+2026/09/17 00:12:55.598521 [Info] [205147937] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:12:55.598521 from 127.0.0.1:51108 accepted http://ipv6.msftncsi.com/connecttest.txt [http-in -> proxy]
+2026/09/17 00:12:55.598521 [Info] [205147937] proxy/vless/outbound: tunneling request to tcp:ipv6.msftncsi.com:80 via alt.dawg.su:8535
+2026/09/17 00:12:55.617169 [Info] [629778207] proxy/http: request to Method [GET] Host [www.msftncsi.com] with URL [http://www.msftncsi.com/connecttest.txt]
+2026/09/17 00:12:55.617169 [Info] [629778207] app/dispatcher: taking detour [proxy] for [tcp:www.msftncsi.com:80]
+2026/09/17 00:12:55.617169 [Info] [629778207] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:12:55.617169 from 127.0.0.1:51110 accepted http://www.msftncsi.com/connecttest.txt [http-in -> proxy]
+2026/09/17 00:12:55.617169 [Info] [629778207] proxy/vless/outbound: tunneling request to tcp:www.msftncsi.com:80 via alt.dawg.su:8535
+2026/09/17 00:12:56.666273 [Warning] [205147937] proxy/http: failed to read response from ipv6.msftncsi.com > unexpected EOF
+2026/09/17 00:12:56.815417 [Info] [502657089] proxy/http: request to Method [GET] Host [ipv6.msftncsi.com] with URL [http://ipv6.msftncsi.com/connecttest.txt]
+2026/09/17 00:12:56.815417 [Info] [502657089] app/dispatcher: taking detour [proxy] for [tcp:ipv6.msftncsi.com:80]
+2026/09/17 00:12:56.815417 from 127.0.0.1:55822 accepted http://ipv6.msftncsi.com/connecttest.txt [http-in -> proxy]
+2026/09/17 00:12:56.815417 [Info] [502657089] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:12:56.816939 [Info] [502657089] proxy/vless/outbound: tunneling request to tcp:ipv6.msftncsi.com:80 via alt.dawg.su:8535
+2026/09/17 00:12:57.881283 [Warning] [502657089] proxy/http: failed to read response from ipv6.msftncsi.com > unexpected EOF
+2026/09/17 00:12:58.350147 [Info] [112991709] proxy/http: request to Method [CONNECT] Host [strm.yandex.ru:443] with URL [//strm.yandex.ru:443]
+2026/09/17 00:12:58.350147 [Info] [112991709] app/dispatcher: taking detour [proxy] for [tcp:strm.yandex.ru:443]
+2026/09/17 00:12:58.350147 [Info] [112991709] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:12:58.350147 from 127.0.0.1:55827 accepted //strm.yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:12:58.350147 [Info] [112991709] proxy/vless/outbound: tunneling request to tcp:strm.yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:13:20.237259 [Info] [526157336] proxy/http: request to Method [CONNECT] Host [alive.github.com:443] with URL [//alive.github.com:443]
+2026/09/17 00:13:20.237259 [Info] [526157336] app/dispatcher: taking detour [proxy] for [tcp:alive.github.com:443]
+2026/09/17 00:13:20.237259 [Info] [526157336] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:13:20.237259 from 127.0.0.1:55872 accepted //alive.github.com:443 [http-in -> proxy]
+2026/09/17 00:13:20.237259 [Info] [526157336] proxy/vless/outbound: tunneling request to tcp:alive.github.com:443 via alt.dawg.su:8535
+2026/09/17 00:13:20.646806 [Info] [604673114] proxy/http: request to Method [CONNECT] Host [github.com:443] with URL [//github.com:443]
+2026/09/17 00:13:20.646806 [Info] [604673114] app/dispatcher: taking detour [proxy] for [tcp:github.com:443]
+2026/09/17 00:13:20.646806 [Info] [604673114] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:13:20.646806 from 127.0.0.1:55873 accepted //github.com:443 [http-in -> proxy]
+2026/09/17 00:13:20.646806 [Info] [604673114] proxy/vless/outbound: tunneling request to tcp:github.com:443 via alt.dawg.su:8535
+2026/09/17 00:13:20.943436 [Info] [2430910509] proxy/http: request to Method [CONNECT] Host [alive.github.com:443] with URL [//alive.github.com:443]
+2026/09/17 00:13:20.943436 [Info] [2430910509] app/dispatcher: taking detour [proxy] for [tcp:alive.github.com:443]
+2026/09/17 00:13:20.943436 from 127.0.0.1:55874 accepted //alive.github.com:443 [http-in -> proxy]
+2026/09/17 00:13:20.943436 [Info] [2430910509] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:13:20.943436 [Info] [2430910509] proxy/vless/outbound: tunneling request to tcp:alive.github.com:443 via alt.dawg.su:8535
+2026/09/17 00:13:28.352079 [Info] [2937592188] proxy/http: request to Method [CONNECT] Host [strm.yandex.ru:443] with URL [//strm.yandex.ru:443]
+2026/09/17 00:13:28.352079 [Info] [2937592188] app/dispatcher: taking detour [proxy] for [tcp:strm.yandex.ru:443]
+2026/09/17 00:13:28.352079 [Info] [2937592188] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:13:28.352079 from 127.0.0.1:55891 accepted //strm.yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:13:28.352079 [Info] [2937592188] proxy/vless/outbound: tunneling request to tcp:strm.yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:13:29.616469 from 127.0.0.1:55894 accepted //apps.overwolf.com:443 [http-in -> proxy]
+2026/09/17 00:13:29.617986 [Info] [3203222050] proxy/http: request to Method [CONNECT] Host [apps.overwolf.com:443] with URL [//apps.overwolf.com:443]
+2026/09/17 00:13:29.617986 [Info] [3203222050] app/dispatcher: taking detour [proxy] for [tcp:apps.overwolf.com:443]
+2026/09/17 00:13:29.617986 [Info] [3203222050] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:13:29.617986 [Info] [3203222050] proxy/vless/outbound: tunneling request to tcp:apps.overwolf.com:443 via alt.dawg.su:8535
+2026/09/17 00:13:29.958190 [Info] [4210428201] proxy/http: request to Method [CONNECT] Host [apps.overwolf.com:443] with URL [//apps.overwolf.com:443]
+2026/09/17 00:13:29.958190 [Info] [4210428201] app/dispatcher: taking detour [proxy] for [tcp:apps.overwolf.com:443]
+2026/09/17 00:13:29.958190 from 127.0.0.1:55895 accepted //apps.overwolf.com:443 [http-in -> proxy]
+2026/09/17 00:13:29.958190 [Info] [4210428201] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:13:29.958696 [Info] [4210428201] proxy/vless/outbound: tunneling request to tcp:apps.overwolf.com:443 via alt.dawg.su:8535
+2026/09/17 00:13:47.480083 from 127.0.0.1:55933 accepted //strm-ams24.strm.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:13:47.480083 [Info] [450636798] proxy/http: request to Method [CONNECT] Host [strm-ams24.strm.yandex.net:443] with URL [//strm-ams24.strm.yandex.net:443]
+2026/09/17 00:13:47.480083 [Info] [450636798] app/dispatcher: taking detour [proxy] for [tcp:strm-ams24.strm.yandex.net:443]
+2026/09/17 00:13:47.480083 [Info] [450636798] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:13:47.480083 [Info] [450636798] proxy/vless/outbound: tunneling request to tcp:strm-ams24.strm.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:13:48.804113 [Info] [2861667619] proxy/http: request to Method [CONNECT] Host [log.strm.yandex.ru:443] with URL [//log.strm.yandex.ru:443]
+2026/09/17 00:13:48.804113 from 127.0.0.1:55936 accepted //log.strm.yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:13:48.804113 [Info] [2861667619] app/dispatcher: taking detour [proxy] for [tcp:log.strm.yandex.ru:443]
+2026/09/17 00:13:48.804113 [Info] [2861667619] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:13:48.804113 [Info] [2861667619] proxy/vless/outbound: tunneling request to tcp:log.strm.yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:13:56.102259 [Info] [1537796986] proxy/http: request to Method [CONNECT] Host [yandex.ru:443] with URL [//yandex.ru:443]
+2026/09/17 00:13:56.102259 [Info] [1537796986] app/dispatcher: taking detour [proxy] for [tcp:yandex.ru:443]
+2026/09/17 00:13:56.102259 from 127.0.0.1:55950 accepted //yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:13:56.102259 [Info] [1537796986] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:13:56.102259 [Info] [1537796986] proxy/vless/outbound: tunneling request to tcp:yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:13:58.342840 [Info] [1486740783] proxy/http: request to Method [CONNECT] Host [strm.yandex.ru:443] with URL [//strm.yandex.ru:443]
+2026/09/17 00:13:58.342840 [Info] [1486740783] app/dispatcher: taking detour [proxy] for [tcp:strm.yandex.ru:443]
+2026/09/17 00:13:58.342840 [Info] [1486740783] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:13:58.342840 from 127.0.0.1:55955 accepted //strm.yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:13:58.342840 [Info] [1486740783] proxy/vless/outbound: tunneling request to tcp:strm.yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:13:59.475602 [Info] [2686164667] proxy/http: request to Method [CONNECT] Host [strm-ams24.strm.yandex.net:443] with URL [//strm-ams24.strm.yandex.net:443]
+2026/09/17 00:13:59.475602 [Info] [2686164667] app/dispatcher: taking detour [proxy] for [tcp:strm-ams24.strm.yandex.net:443]
+2026/09/17 00:13:59.475602 [Info] [2686164667] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:13:59.475602 from 127.0.0.1:55960 accepted //strm-ams24.strm.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:13:59.476154 [Info] [2686164667] proxy/vless/outbound: tunneling request to tcp:strm-ams24.strm.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:14:04.061411 [Info] [4139508150] proxy/http: request to Method [CONNECT] Host [log.strm.yandex.ru:443] with URL [//log.strm.yandex.ru:443]
+2026/09/17 00:14:04.061411 [Info] [4139508150] app/dispatcher: taking detour [proxy] for [tcp:log.strm.yandex.ru:443]
+2026/09/17 00:14:04.061411 [Info] [4139508150] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:14:04.061411 from 127.0.0.1:55969 accepted //log.strm.yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:14:04.061411 [Info] [4139508150] proxy/vless/outbound: tunneling request to tcp:log.strm.yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:14:11.099976 [Info] [4016704327] proxy/http: request to Method [CONNECT] Host [yandex.ru:443] with URL [//yandex.ru:443]
+2026/09/17 00:14:11.099976 [Info] [4016704327] app/dispatcher: taking detour [proxy] for [tcp:yandex.ru:443]
+2026/09/17 00:14:11.099976 [Info] [4016704327] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:14:11.099976 from 127.0.0.1:55984 accepted //yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:14:11.099976 [Info] [4016704327] proxy/vless/outbound: tunneling request to tcp:yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:14:14.052988 [Info] [680924355] proxy/http: request to Method [CONNECT] Host [api.music.yandex.net:443] with URL [//api.music.yandex.net:443]
+2026/09/17 00:14:14.052988 [Info] [680924355] app/dispatcher: taking detour [proxy] for [tcp:api.music.yandex.net:443]
+2026/09/17 00:14:14.052988 [Info] [680924355] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:14:14.052988 from 127.0.0.1:55989 accepted //api.music.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:14:14.052988 [Info] [680924355] proxy/vless/outbound: tunneling request to tcp:api.music.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:14:18.795403 from 127.0.0.1:56000 accepted //log.strm.yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:14:18.795403 [Info] [2237718329] proxy/http: request to Method [CONNECT] Host [log.strm.yandex.ru:443] with URL [//log.strm.yandex.ru:443]
+2026/09/17 00:14:18.795403 [Info] [2237718329] app/dispatcher: taking detour [proxy] for [tcp:log.strm.yandex.ru:443]
+2026/09/17 00:14:18.795403 [Info] [2237718329] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:14:18.795403 [Info] [2237718329] proxy/vless/outbound: tunneling request to tcp:log.strm.yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:14:26.088458 [Info] [2279059648] proxy/http: request to Method [CONNECT] Host [yandex.ru:443] with URL [//yandex.ru:443]
+2026/09/17 00:14:26.088458 [Info] [2279059648] app/dispatcher: taking detour [proxy] for [tcp:yandex.ru:443]
+2026/09/17 00:14:26.088458 [Info] [2279059648] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:14:26.088458 from 127.0.0.1:56015 accepted //yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:14:26.088458 [Info] [2279059648] proxy/vless/outbound: tunneling request to tcp:yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:14:28.354542 [Info] [2793172833] proxy/http: request to Method [CONNECT] Host [strm.yandex.ru:443] with URL [//strm.yandex.ru:443]
+2026/09/17 00:14:28.354542 [Info] [2793172833] app/dispatcher: taking detour [proxy] for [tcp:strm.yandex.ru:443]
+2026/09/17 00:14:28.354542 [Info] [2793172833] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:14:28.354542 from 127.0.0.1:56020 accepted //strm.yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:14:28.354542 [Info] [2793172833] proxy/vless/outbound: tunneling request to tcp:strm.yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:14:29.479182 [Info] [3762595117] proxy/http: request to Method [CONNECT] Host [incoming.telemetry.mozilla.org:443] with URL [//incoming.telemetry.mozilla.org:443]
+2026/09/17 00:14:29.479182 [Info] [3762595117] app/dispatcher: taking detour [proxy] for [tcp:incoming.telemetry.mozilla.org:443]
+2026/09/17 00:14:29.479182 [Info] [3762595117] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:14:29.479182 from 127.0.0.1:56021 accepted //incoming.telemetry.mozilla.org:443 [http-in -> proxy]
+2026/09/17 00:14:29.480708 [Info] [3762595117] proxy/vless/outbound: tunneling request to tcp:incoming.telemetry.mozilla.org:443 via alt.dawg.su:8535
+2026/09/17 00:14:32.290248 [Info] [390594247] proxy/http: request to Method [CONNECT] Host [log.strm.yandex.ru:443] with URL [//log.strm.yandex.ru:443]
+2026/09/17 00:14:32.290248 [Info] [390594247] app/dispatcher: taking detour [proxy] for [tcp:log.strm.yandex.ru:443]
+2026/09/17 00:14:32.290248 [Info] [390594247] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:14:32.290248 from 127.0.0.1:56028 accepted //log.strm.yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:14:32.290248 [Info] [390594247] proxy/vless/outbound: tunneling request to tcp:log.strm.yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:14:32.295570 [Info] [1656408085] proxy/http: request to Method [CONNECT] Host [api.music.yandex.net:443] with URL [//api.music.yandex.net:443]
+2026/09/17 00:14:32.295570 [Info] [1656408085] app/dispatcher: taking detour [proxy] for [tcp:api.music.yandex.net:443]
+2026/09/17 00:14:32.295570 [Info] [1656408085] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:14:32.295570 from 127.0.0.1:56029 accepted //api.music.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:14:32.295570 [Info] [1656408085] proxy/vless/outbound: tunneling request to tcp:api.music.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:14:32.544829 [Info] [1928489414] proxy/http: request to Method [CONNECT] Host [api.music.yandex.net:443] with URL [//api.music.yandex.net:443]
+2026/09/17 00:14:32.544829 [Info] [1928489414] app/dispatcher: taking detour [proxy] for [tcp:api.music.yandex.net:443]
+2026/09/17 00:14:32.544829 from 127.0.0.1:56030 accepted //api.music.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:14:32.544829 [Info] [1928489414] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:14:32.544829 [Info] [1928489414] proxy/vless/outbound: tunneling request to tcp:api.music.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:14:32.897106 [Info] [1918491135] proxy/http: request to Method [CONNECT] Host [yandex.ru:443] with URL [//yandex.ru:443]
+2026/09/17 00:14:32.897866 [Info] [1918491135] app/dispatcher: taking detour [proxy] for [tcp:yandex.ru:443]
+2026/09/17 00:14:32.897866 [Info] [1918491135] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:14:32.897866 [Info] [1918491135] proxy/vless/outbound: tunneling request to tcp:yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:14:32.897866 from 127.0.0.1:56033 accepted //yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:14:32.901460 [Info] [1975288565] proxy/http: request to Method [CONNECT] Host [avatars.yandex.net:443] with URL [//avatars.yandex.net:443]
+2026/09/17 00:14:32.901460 [Info] [1975288565] app/dispatcher: taking detour [proxy] for [tcp:avatars.yandex.net:443]
+2026/09/17 00:14:32.901460 [Info] [1975288565] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:14:32.901460 from 127.0.0.1:56035 accepted //avatars.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:14:32.901460 [Info] [1975288565] proxy/vless/outbound: tunneling request to tcp:avatars.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:14:32.907813 [Info] [2295667793] proxy/http: request to Method [CONNECT] Host [mc.yandex.com:443] with URL [//mc.yandex.com:443]
+2026/09/17 00:14:32.907813 [Info] [2295667793] app/dispatcher: taking detour [proxy] for [tcp:mc.yandex.com:443]
+2026/09/17 00:14:32.907813 [Info] [2295667793] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:14:32.907813 from 127.0.0.1:56036 accepted //mc.yandex.com:443 [http-in -> proxy]
+2026/09/17 00:14:32.907813 [Info] [2295667793] proxy/vless/outbound: tunneling request to tcp:mc.yandex.com:443 via alt.dawg.su:8535
+2026/09/17 00:14:34.107265 [Info] [1559788546] proxy/http: request to Method [CONNECT] Host [strm-fra-03.strm.yandex.net:443] with URL [//strm-fra-03.strm.yandex.net:443]
+2026/09/17 00:14:34.107265 [Info] [1559788546] app/dispatcher: taking detour [proxy] for [tcp:strm-fra-03.strm.yandex.net:443]
+2026/09/17 00:14:34.107265 [Info] [1559788546] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:14:34.107265 from 127.0.0.1:56039 accepted //strm-fra-03.strm.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:14:34.107265 [Info] [1559788546] proxy/vless/outbound: tunneling request to tcp:strm-fra-03.strm.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:14:34.268903 [Info] [3136637867] proxy/http: request to Method [CONNECT] Host [strm-fra-02.strm.yandex.net:443] with URL [//strm-fra-02.strm.yandex.net:443]
+2026/09/17 00:14:34.269433 [Info] [3136637867] app/dispatcher: taking detour [proxy] for [tcp:strm-fra-02.strm.yandex.net:443]
+2026/09/17 00:14:34.269433 [Info] [3136637867] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:14:34.269433 from 127.0.0.1:56040 accepted //strm-fra-02.strm.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:14:34.269433 [Info] [3136637867] proxy/vless/outbound: tunneling request to tcp:strm-fra-02.strm.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:14:38.072645 [Info] [579234672] proxy/http: request to Method [CONNECT] Host [strm-fra-02.strm.yandex.net:443] with URL [//strm-fra-02.strm.yandex.net:443]
+2026/09/17 00:14:38.072645 [Info] [579234672] app/dispatcher: taking detour [proxy] for [tcp:strm-fra-02.strm.yandex.net:443]
+2026/09/17 00:14:38.072645 [Info] [579234672] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:14:38.072645 from 127.0.0.1:56049 accepted //strm-fra-02.strm.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:14:38.072645 [Info] [579234672] proxy/vless/outbound: tunneling request to tcp:strm-fra-02.strm.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:14:38.304280 [Info] [2589397701] proxy/http: request to Method [CONNECT] Host [log.strm.yandex.ru:443] with URL [//log.strm.yandex.ru:443]
+2026/09/17 00:14:38.304280 [Info] [2589397701] app/dispatcher: taking detour [proxy] for [tcp:log.strm.yandex.ru:443]
+2026/09/17 00:14:38.304280 [Info] [2589397701] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:14:38.304280 from 127.0.0.1:56050 accepted //log.strm.yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:14:38.304786 [Info] [2589397701] proxy/vless/outbound: tunneling request to tcp:log.strm.yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:14:41.093089 [Info] [508064367] proxy/http: request to Method [CONNECT] Host [yandex.ru:443] with URL [//yandex.ru:443]
+2026/09/17 00:14:41.093089 [Info] [508064367] app/dispatcher: taking detour [proxy] for [tcp:yandex.ru:443]
+2026/09/17 00:14:41.093089 [Info] [508064367] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:14:41.093089 from 127.0.0.1:56057 accepted //yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:14:41.093089 [Info] [508064367] proxy/vless/outbound: tunneling request to tcp:yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:14:42.130002 [Info] [4168598256] proxy/http: request to Method [CONNECT] Host [bam.nr-data.net:443] with URL [//bam.nr-data.net:443]
+2026/09/17 00:14:42.130002 [Info] [4168598256] app/dispatcher: taking detour [proxy] for [tcp:bam.nr-data.net:443]
+2026/09/17 00:14:42.130002 [Info] [4168598256] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:14:42.130002 from 127.0.0.1:56060 accepted //bam.nr-data.net:443 [http-in -> proxy]
+2026/09/17 00:14:42.130002 [Info] [4168598256] proxy/vless/outbound: tunneling request to tcp:bam.nr-data.net:443 via alt.dawg.su:8535
+2026/09/17 00:14:48.271944 [Info] [2082224192] proxy/http: request to Method [CONNECT] Host [strm-fra-02.strm.yandex.net:443] with URL [//strm-fra-02.strm.yandex.net:443]
+2026/09/17 00:14:48.271944 [Info] [2082224192] app/dispatcher: taking detour [proxy] for [tcp:strm-fra-02.strm.yandex.net:443]
+2026/09/17 00:14:48.271944 [Info] [2082224192] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:14:48.271944 from 127.0.0.1:56071 accepted //strm-fra-02.strm.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:14:48.271944 [Info] [2082224192] proxy/vless/outbound: tunneling request to tcp:strm-fra-02.strm.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:14:50.965119 [Info] [664280754] proxy/http: request to Method [CONNECT] Host [api.github.com:443] with URL [//api.github.com:443]
+2026/09/17 00:14:50.965119 [Info] [664280754] app/dispatcher: taking detour [proxy] for [tcp:api.github.com:443]
+2026/09/17 00:14:50.965119 [Info] [664280754] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:14:50.965119 from 127.0.0.1:55692 accepted //api.github.com:443 [http-in -> proxy]
+2026/09/17 00:14:50.965119 [Info] [664280754] proxy/vless/outbound: tunneling request to tcp:api.github.com:443 via alt.dawg.su:8535
+2026/09/17 00:14:52.107907 [Info] [1142982482] proxy/http: request to Method [CONNECT] Host [bifrost-https-v4.gw.postman.com:443] with URL [//bifrost-https-v4.gw.postman.com:443]
+2026/09/17 00:14:52.107907 [Info] [1142982482] app/dispatcher: taking detour [proxy] for [tcp:bifrost-https-v4.gw.postman.com:443]
+2026/09/17 00:14:52.107907 [Info] [1142982482] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:14:52.107907 [Info] [1142982482] proxy/vless/outbound: tunneling request to tcp:bifrost-https-v4.gw.postman.com:443 via alt.dawg.su:8535
+2026/09/17 00:14:52.107907 from 127.0.0.1:55695 accepted //bifrost-https-v4.gw.postman.com:443 [http-in -> proxy]
+2026/09/17 00:14:52.139758 [Info] [3088779074] proxy/http: request to Method [CONNECT] Host [bam.nr-data.net:443] with URL [//bam.nr-data.net:443]
+2026/09/17 00:14:52.139758 [Info] [3088779074] app/dispatcher: taking detour [proxy] for [tcp:bam.nr-data.net:443]
+2026/09/17 00:14:52.139758 [Info] [3088779074] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:14:52.139758 from 127.0.0.1:55696 accepted //bam.nr-data.net:443 [http-in -> proxy]
+2026/09/17 00:14:52.141765 [Info] [3088779074] proxy/vless/outbound: tunneling request to tcp:bam.nr-data.net:443 via alt.dawg.su:8535
+2026/09/17 00:14:53.400355 [Info] [4001869074] proxy/http: request to Method [CONNECT] Host [mobile.events.data.microsoft.com:443] with URL [//mobile.events.data.microsoft.com:443]
+2026/09/17 00:14:53.400355 [Info] [4001869074] app/dispatcher: taking detour [proxy] for [tcp:mobile.events.data.microsoft.com:443]
+2026/09/17 00:14:53.400355 [Info] [4001869074] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:14:53.400355 from 127.0.0.1:63724 accepted //mobile.events.data.microsoft.com:443 [http-in -> proxy]
+2026/09/17 00:14:53.400355 [Info] [4001869074] proxy/vless/outbound: tunneling request to tcp:mobile.events.data.microsoft.com:443 via alt.dawg.su:8535
+2026/09/17 00:14:54.305128 from 127.0.0.1:63727 accepted //log.strm.yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:14:54.305128 [Info] [2493178660] proxy/http: request to Method [CONNECT] Host [log.strm.yandex.ru:443] with URL [//log.strm.yandex.ru:443]
+2026/09/17 00:14:54.305128 [Info] [2493178660] app/dispatcher: taking detour [proxy] for [tcp:log.strm.yandex.ru:443]
+2026/09/17 00:14:54.305128 [Info] [2493178660] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:14:54.305128 [Info] [2493178660] proxy/vless/outbound: tunneling request to tcp:log.strm.yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:14:56.111560 [Info] [2283365363] proxy/http: request to Method [CONNECT] Host [yandex.ru:443] with URL [//yandex.ru:443]
+2026/09/17 00:14:56.111560 [Info] [2283365363] app/dispatcher: taking detour [proxy] for [tcp:yandex.ru:443]
+2026/09/17 00:14:56.111560 [Info] [2283365363] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:14:56.111560 from 127.0.0.1:63732 accepted //yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:14:56.111560 [Info] [2283365363] proxy/vless/outbound: tunneling request to tcp:yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:14:56.364266 [Info] [3705008611] proxy/http: request to Method [CONNECT] Host [events-am.gw.postman.com:443] with URL [//events-am.gw.postman.com:443]
+2026/09/17 00:14:56.364266 [Info] [3705008611] app/dispatcher: taking detour [proxy] for [tcp:events-am.gw.postman.com:443]
+2026/09/17 00:14:56.364266 [Info] [3705008611] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:14:56.364266 from 127.0.0.1:63733 accepted //events-am.gw.postman.com:443 [http-in -> proxy]
+2026/09/17 00:14:56.364266 [Info] [3705008611] proxy/vless/outbound: tunneling request to tcp:events-am.gw.postman.com:443 via alt.dawg.su:8535
+2026/09/17 00:14:58.344795 [Info] [2962396245] proxy/http: request to Method [CONNECT] Host [strm.yandex.ru:443] with URL [//strm.yandex.ru:443]
+2026/09/17 00:14:58.344795 [Info] [2962396245] app/dispatcher: taking detour [proxy] for [tcp:strm.yandex.ru:443]
+2026/09/17 00:14:58.344795 [Info] [2962396245] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:14:58.344795 from 127.0.0.1:63738 accepted //strm.yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:14:58.344795 [Info] [2962396245] proxy/vless/outbound: tunneling request to tcp:strm.yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:14:59.078505 [Info] [1221492195] proxy/http: request to Method [CONNECT] Host [strm-fra-02.strm.yandex.net:443] with URL [//strm-fra-02.strm.yandex.net:443]
+2026/09/17 00:14:59.078505 [Info] [1221492195] app/dispatcher: taking detour [proxy] for [tcp:strm-fra-02.strm.yandex.net:443]
+2026/09/17 00:14:59.078505 [Info] [1221492195] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:14:59.078505 [Info] [1221492195] proxy/vless/outbound: tunneling request to tcp:strm-fra-02.strm.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:14:59.078505 from 127.0.0.1:63741 accepted //strm-fra-02.strm.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:15:02.029726 [Info] [1238653368] proxy/http: request to Method [CONNECT] Host [bam.nr-data.net:443] with URL [//bam.nr-data.net:443]
+2026/09/17 00:15:02.029726 [Info] [1238653368] app/dispatcher: taking detour [proxy] for [tcp:bam.nr-data.net:443]
+2026/09/17 00:15:02.029726 [Info] [1238653368] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:15:02.029726 from 127.0.0.1:63748 accepted //bam.nr-data.net:443 [http-in -> proxy]
+2026/09/17 00:15:02.029726 [Info] [1238653368] proxy/vless/outbound: tunneling request to tcp:bam.nr-data.net:443 via alt.dawg.su:8535
+2026/09/17 00:15:02.155099 [Info] [4096408689] proxy/http: request to Method [CONNECT] Host [bam.nr-data.net:443] with URL [//bam.nr-data.net:443]
+2026/09/17 00:15:02.155099 [Info] [4096408689] app/dispatcher: taking detour [proxy] for [tcp:bam.nr-data.net:443]
+2026/09/17 00:15:02.155099 [Info] [4096408689] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:15:02.155099 from 127.0.0.1:63749 accepted //bam.nr-data.net:443 [http-in -> proxy]
+2026/09/17 00:15:02.156618 [Info] [4096408689] proxy/vless/outbound: tunneling request to tcp:bam.nr-data.net:443 via alt.dawg.su:8535
+2026/09/17 00:15:04.102409 [Info] [3320611097] proxy/http: request to Method [CONNECT] Host [log.strm.yandex.ru:443] with URL [//log.strm.yandex.ru:443]
+2026/09/17 00:15:04.102409 [Info] [3320611097] app/dispatcher: taking detour [proxy] for [tcp:log.strm.yandex.ru:443]
+2026/09/17 00:15:04.102409 [Info] [3320611097] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:15:04.102409 from 127.0.0.1:63754 accepted //log.strm.yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:15:04.102409 [Info] [3320611097] proxy/vless/outbound: tunneling request to tcp:log.strm.yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:15:07.079612 [Info] [3176264479] proxy/http: request to Method [CONNECT] Host [strm-fra-02.strm.yandex.net:443] with URL [//strm-fra-02.strm.yandex.net:443]
+2026/09/17 00:15:07.079612 [Info] [3176264479] app/dispatcher: taking detour [proxy] for [tcp:strm-fra-02.strm.yandex.net:443]
+2026/09/17 00:15:07.079612 from 127.0.0.1:63761 accepted //strm-fra-02.strm.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:15:07.079612 [Info] [3176264479] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:15:07.079612 [Info] [3176264479] proxy/vless/outbound: tunneling request to tcp:strm-fra-02.strm.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:15:11.097158 [Info] [1286132101] proxy/http: request to Method [CONNECT] Host [yandex.ru:443] with URL [//yandex.ru:443]
+2026/09/17 00:15:11.097158 from 127.0.0.1:63770 accepted //yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:15:11.097158 [Info] [1286132101] app/dispatcher: taking detour [proxy] for [tcp:yandex.ru:443]
+2026/09/17 00:15:11.097158 [Info] [1286132101] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:15:11.097158 [Info] [1286132101] proxy/vless/outbound: tunneling request to tcp:yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:15:12.174963 from 127.0.0.1:63773 accepted //bam.nr-data.net:443 [http-in -> proxy]
+2026/09/17 00:15:12.174963 [Info] [2297125478] proxy/http: request to Method [CONNECT] Host [bam.nr-data.net:443] with URL [//bam.nr-data.net:443]
+2026/09/17 00:15:12.174963 [Info] [2297125478] app/dispatcher: taking detour [proxy] for [tcp:bam.nr-data.net:443]
+2026/09/17 00:15:12.174963 [Info] [2297125478] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:15:12.174963 [Info] [2297125478] proxy/vless/outbound: tunneling request to tcp:bam.nr-data.net:443 via alt.dawg.su:8535
+2026/09/17 00:15:16.317037 [Info] [2440240696] proxy/http: request to Method [CONNECT] Host [desktop.postman.com:443] with URL [//desktop.postman.com:443]
+2026/09/17 00:15:16.317037 [Info] [2440240696] app/dispatcher: taking detour [proxy] for [tcp:desktop.postman.com:443]
+2026/09/17 00:15:16.317037 [Info] [2440240696] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:15:16.317037 from 127.0.0.1:63782 accepted //desktop.postman.com:443 [http-in -> proxy]
+2026/09/17 00:15:16.317037 [Info] [2440240696] proxy/vless/outbound: tunneling request to tcp:desktop.postman.com:443 via alt.dawg.su:8535
+2026/09/17 00:15:17.621357 [Info] [2969634686] proxy/http: request to Method [CONNECT] Host [bifrost-https-v4.gw.postman.com:443] with URL [//bifrost-https-v4.gw.postman.com:443]
+2026/09/17 00:15:17.621357 [Info] [2969634686] app/dispatcher: taking detour [proxy] for [tcp:bifrost-https-v4.gw.postman.com:443]
+2026/09/17 00:15:17.621357 [Info] [2969634686] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:15:17.621357 from 127.0.0.1:63785 accepted //bifrost-https-v4.gw.postman.com:443 [http-in -> proxy]
+2026/09/17 00:15:17.622879 [Info] [2969634686] proxy/vless/outbound: tunneling request to tcp:bifrost-https-v4.gw.postman.com:443 via alt.dawg.su:8535
+2026/09/17 00:15:19.076989 [Info] [1109217248] proxy/http: request to Method [CONNECT] Host [strm-fra-02.strm.yandex.net:443] with URL [//strm-fra-02.strm.yandex.net:443]
+2026/09/17 00:15:19.076989 [Info] [1109217248] app/dispatcher: taking detour [proxy] for [tcp:strm-fra-02.strm.yandex.net:443]
+2026/09/17 00:15:19.076989 [Info] [1109217248] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:15:19.076989 from 127.0.0.1:63790 accepted //strm-fra-02.strm.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:15:19.076989 [Info] [1109217248] proxy/vless/outbound: tunneling request to tcp:strm-fra-02.strm.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:15:22.062286 [Info] [2665833064] proxy/http: request to Method [CONNECT] Host [bam.nr-data.net:443] with URL [//bam.nr-data.net:443]
+2026/09/17 00:15:22.062286 [Info] [2665833064] app/dispatcher: taking detour [proxy] for [tcp:bam.nr-data.net:443]
+2026/09/17 00:15:22.062286 [Info] [2665833064] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:15:22.062286 [Info] [2665833064] proxy/vless/outbound: tunneling request to tcp:bam.nr-data.net:443 via alt.dawg.su:8535
+2026/09/17 00:15:22.062286 from 127.0.0.1:63796 accepted //bam.nr-data.net:443 [http-in -> proxy]
+2026/09/17 00:15:22.158773 [Info] [3548482989] proxy/http: request to Method [CONNECT] Host [events.launchdarkly.com:443] with URL [//events.launchdarkly.com:443]
+2026/09/17 00:15:22.158773 [Info] [3548482989] app/dispatcher: taking detour [proxy] for [tcp:events.launchdarkly.com:443]
+2026/09/17 00:15:22.158773 [Info] [3548482989] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:15:22.158773 from 127.0.0.1:63799 accepted //events.launchdarkly.com:443 [http-in -> proxy]
+2026/09/17 00:15:22.158773 [Info] [3548482989] proxy/vless/outbound: tunneling request to tcp:events.launchdarkly.com:443 via alt.dawg.su:8535
+2026/09/17 00:15:22.188491 [Info] [381080442] proxy/http: request to Method [CONNECT] Host [bam.nr-data.net:443] with URL [//bam.nr-data.net:443]
+2026/09/17 00:15:22.188491 [Info] [381080442] app/dispatcher: taking detour [proxy] for [tcp:bam.nr-data.net:443]
+2026/09/17 00:15:22.188491 [Info] [381080442] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:15:22.188491 from 127.0.0.1:63800 accepted //bam.nr-data.net:443 [http-in -> proxy]
+2026/09/17 00:15:22.188491 [Info] [381080442] proxy/vless/outbound: tunneling request to tcp:bam.nr-data.net:443 via alt.dawg.su:8535
+2026/09/17 00:15:27.075215 [Info] [1192559862] proxy/http: request to Method [CONNECT] Host [strm-fra-02.strm.yandex.net:443] with URL [//strm-fra-02.strm.yandex.net:443]
+2026/09/17 00:15:27.075215 from 127.0.0.1:63809 accepted //strm-fra-02.strm.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:15:27.075215 [Info] [1192559862] app/dispatcher: taking detour [proxy] for [tcp:strm-fra-02.strm.yandex.net:443]
+2026/09/17 00:15:27.075215 [Info] [1192559862] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:15:27.075215 [Info] [1192559862] proxy/vless/outbound: tunneling request to tcp:strm-fra-02.strm.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:15:28.340067 [Info] [3339511186] proxy/http: request to Method [CONNECT] Host [strm.yandex.ru:443] with URL [//strm.yandex.ru:443]
+2026/09/17 00:15:28.340067 [Info] [3339511186] app/dispatcher: taking detour [proxy] for [tcp:strm.yandex.ru:443]
+2026/09/17 00:15:28.340067 [Info] [3339511186] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:15:28.340067 [Info] [3339511186] proxy/vless/outbound: tunneling request to tcp:strm.yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:15:28.340067 from 127.0.0.1:63814 accepted //strm.yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:15:34.202417 [Info] [2685137426] proxy/http: request to Method [CONNECT] Host [log.strm.yandex.ru:443] with URL [//log.strm.yandex.ru:443]
+2026/09/17 00:15:34.202417 [Info] [2685137426] app/dispatcher: taking detour [proxy] for [tcp:log.strm.yandex.ru:443]
+2026/09/17 00:15:34.202417 [Info] [2685137426] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:15:34.202417 from 127.0.0.1:63828 accepted //log.strm.yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:15:34.202417 [Info] [2685137426] proxy/vless/outbound: tunneling request to tcp:log.strm.yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:15:41.096151 [Info] [1109834745] proxy/http: request to Method [CONNECT] Host [yandex.ru:443] with URL [//yandex.ru:443]
+2026/09/17 00:15:41.096151 [Info] [1109834745] app/dispatcher: taking detour [proxy] for [tcp:yandex.ru:443]
+2026/09/17 00:15:41.096151 from 127.0.0.1:63841 accepted //yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:15:41.096151 [Info] [1109834745] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:15:41.096151 [Info] [1109834745] proxy/vless/outbound: tunneling request to tcp:yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:15:42.974504 [Info] [3666731872] proxy/http: request to Method [CONNECT] Host [strm-fra-02.strm.yandex.net:443] with URL [//strm-fra-02.strm.yandex.net:443]
+2026/09/17 00:15:42.974504 [Info] [3666731872] app/dispatcher: taking detour [proxy] for [tcp:strm-fra-02.strm.yandex.net:443]
+2026/09/17 00:15:42.974504 [Info] [3666731872] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:15:42.974504 [Info] [3666731872] proxy/vless/outbound: tunneling request to tcp:strm-fra-02.strm.yandex.net:443 via alt.dawg.su:8535
+2026/09/17 00:15:42.974504 from 127.0.0.1:63846 accepted //strm-fra-02.strm.yandex.net:443 [http-in -> proxy]
+2026/09/17 00:15:50.844844 [Info] [238420552] proxy/http: request to Method [CONNECT] Host [bifrost-https-v4.gw.postman.com:443] with URL [//bifrost-https-v4.gw.postman.com:443]
+2026/09/17 00:15:50.844844 [Info] [238420552] app/dispatcher: taking detour [proxy] for [tcp:bifrost-https-v4.gw.postman.com:443]
+2026/09/17 00:15:50.844844 [Info] [238420552] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:15:50.844844 from 127.0.0.1:63863 accepted //bifrost-https-v4.gw.postman.com:443 [http-in -> proxy]
+2026/09/17 00:15:50.845378 [Info] [238420552] proxy/vless/outbound: tunneling request to tcp:bifrost-https-v4.gw.postman.com:443 via alt.dawg.su:8535
+2026/09/17 00:15:50.941176 [Info] [1593924090] proxy/http: request to Method [CONNECT] Host [events.getpostman.com:443] with URL [//events.getpostman.com:443]
+2026/09/17 00:15:50.941176 [Info] [1593924090] app/dispatcher: taking detour [proxy] for [tcp:events.getpostman.com:443]
+2026/09/17 00:15:50.941176 [Info] [1593924090] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:15:50.941176 from 127.0.0.1:63864 accepted //events.getpostman.com:443 [http-in -> proxy]
+2026/09/17 00:15:50.942707 [Info] [1593924090] proxy/vless/outbound: tunneling request to tcp:events.getpostman.com:443 via alt.dawg.su:8535
+2026/09/17 00:15:58.339987 [Info] [3055641290] proxy/http: request to Method [CONNECT] Host [strm.yandex.ru:443] with URL [//strm.yandex.ru:443]
+2026/09/17 00:15:58.339987 [Info] [3055641290] app/dispatcher: taking detour [proxy] for [tcp:strm.yandex.ru:443]
+2026/09/17 00:15:58.339987 [Info] [3055641290] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:15:58.339987 from 127.0.0.1:63879 accepted //strm.yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:15:58.339987 [Info] [3055641290] proxy/vless/outbound: tunneling request to tcp:strm.yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:16:04.196586 [Info] [4067286749] proxy/http: request to Method [CONNECT] Host [log.strm.yandex.ru:443] with URL [//log.strm.yandex.ru:443]
+2026/09/17 00:16:04.196586 [Info] [4067286749] app/dispatcher: taking detour [proxy] for [tcp:log.strm.yandex.ru:443]
+2026/09/17 00:16:04.196586 [Info] [4067286749] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:16:04.196586 from 127.0.0.1:63892 accepted //log.strm.yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:16:04.196586 [Info] [4067286749] proxy/vless/outbound: tunneling request to tcp:log.strm.yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:16:06.768399 [Info] [2177749641] proxy/http: request to Method [CONNECT] Host [bifrost-https-v4.gw.postman.com:443] with URL [//bifrost-https-v4.gw.postman.com:443]
+2026/09/17 00:16:06.768399 [Info] [2177749641] app/dispatcher: taking detour [proxy] for [tcp:bifrost-https-v4.gw.postman.com:443]
+2026/09/17 00:16:06.768399 [Info] [2177749641] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:16:06.768399 from 127.0.0.1:63899 accepted //bifrost-https-v4.gw.postman.com:443 [http-in -> proxy]
+2026/09/17 00:16:06.768399 [Info] [2177749641] proxy/vless/outbound: tunneling request to tcp:bifrost-https-v4.gw.postman.com:443 via alt.dawg.su:8535
+2026/09/17 00:16:09.750959 [Info] [3508201156] proxy/http: request to Method [CONNECT] Host [main.vscode-cdn.net:443] with URL [//main.vscode-cdn.net:443]
+2026/09/17 00:16:09.750959 [Info] [3508201156] app/dispatcher: taking detour [proxy] for [tcp:main.vscode-cdn.net:443]
+2026/09/17 00:16:09.750959 [Info] [3508201156] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:16:09.750959 from 127.0.0.1:61585 accepted //main.vscode-cdn.net:443 [http-in -> proxy]
+2026/09/17 00:16:09.750959 [Info] [3508201156] proxy/vless/outbound: tunneling request to tcp:main.vscode-cdn.net:443 via alt.dawg.su:8535
+2026/09/17 00:16:11.091396 [Info] [3543698626] proxy/http: request to Method [CONNECT] Host [yandex.ru:443] with URL [//yandex.ru:443]
+2026/09/17 00:16:11.091396 [Info] [3543698626] app/dispatcher: taking detour [proxy] for [tcp:yandex.ru:443]
+2026/09/17 00:16:11.091396 [Info] [3543698626] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:16:11.091396 from 127.0.0.1:61588 accepted //yandex.ru:443 [http-in -> proxy]
+2026/09/17 00:16:11.091396 [Info] [3543698626] proxy/vless/outbound: tunneling request to tcp:yandex.ru:443 via alt.dawg.su:8535
+2026/09/17 00:16:12.099169 [Info] [1851196724] proxy/http: request to Method [CONNECT] Host [bam.nr-data.net:443] with URL [//bam.nr-data.net:443]
+2026/09/17 00:16:12.099169 [Info] [1851196724] app/dispatcher: taking detour [proxy] for [tcp:bam.nr-data.net:443]
+2026/09/17 00:16:12.099169 [Info] [1851196724] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:16:12.099169 from 127.0.0.1:61591 accepted //bam.nr-data.net:443 [http-in -> proxy]
+2026/09/17 00:16:12.099169 [Info] [1851196724] proxy/vless/outbound: tunneling request to tcp:bam.nr-data.net:443 via alt.dawg.su:8535
+2026/09/17 00:16:12.223684 [Info] [2643523532] proxy/http: request to Method [CONNECT] Host [bam.nr-data.net:443] with URL [//bam.nr-data.net:443]
+2026/09/17 00:16:12.223684 [Info] [2643523532] app/dispatcher: taking detour [proxy] for [tcp:bam.nr-data.net:443]
+2026/09/17 00:16:12.223684 [Info] [2643523532] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:16:12.223684 from 127.0.0.1:61592 accepted //bam.nr-data.net:443 [http-in -> proxy]
+2026/09/17 00:16:12.223684 [Info] [2643523532] proxy/vless/outbound: tunneling request to tcp:bam.nr-data.net:443 via alt.dawg.su:8535
+2026/09/17 00:16:13.504840 [Info] [1016608448] proxy/http: request to Method [CONNECT] Host [bifrost-https-v4.gw.postman.com:443] with URL [//bifrost-https-v4.gw.postman.com:443]
+2026/09/17 00:16:13.504840 [Info] [1016608448] app/dispatcher: taking detour [proxy] for [tcp:bifrost-https-v4.gw.postman.com:443]
+2026/09/17 00:16:13.504840 [Info] [1016608448] transport/internet/splithttp: XHTTP is dialing to udp:alt.dawg.su:8535, mode stream-one, HTTP version 3, host alt.dawg.su
+2026/09/17 00:16:13.504840 from 127.0.0.1:61595 accepted //bifrost-https-v4.gw.postman.com:443 [http-in -> proxy]
+2026/09/17 00:16:13.504840 [Info] [1016608448] proxy/vless/outbound: tunneling request to tcp:bifrost-https-v4.gw.postman.com:443 via alt.dawg.su:8535
