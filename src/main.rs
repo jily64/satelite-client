@@ -7,8 +7,6 @@ use std::{fs::File};
 use std::process::{Child, Command, Stdio};
 use std::sync::{Arc, Mutex};
 use reqwest::Client;
-//use serde::{Deserialize, Serialize};
-
 
 type AppState = Arc<Mutex<Option<Child>>>;
 
