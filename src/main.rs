@@ -54,7 +54,7 @@ async fn start_service(Extension(state): Extension<AppState>) -> StatusCode {
     let child = Command::new("bin/xray.exe")
         .arg("run")
         .arg("-c")
-        .arg("conf/xhttp.json")
+        .arg("conf/test.json")
         .stdout(Stdio::from(log_file))
         .stderr(Stdio::from(err_file))
         .spawn();
