@@ -1,4 +1,6 @@
 pub mod config_manager {
+    use base64::{Engine as _, engine::{general_purpose}};
+
     pub async fn get_cfg(url: &String) -> Option<String> {
         let client = reqwest::Client::new();
         let response = client.get(url).send().await;
@@ -9,13 +11,12 @@ pub mod config_manager {
         }
     }
     pub fn decode_base64(encoded: &str) -> Option<String> {
-        let engine = base64::Engine::new(base64::engine::general_purpose::STANDARD);
-        match base64::Engine::decode(encoded) {
-            Ok(decoded_bytes) => match String::from_utf8(decoded_bytes) {
-                Ok(decoded_string) => Some(decoded_string),
-                Err(_) => None,
-            },
+        let bytes = general_purpose::STANDARD
+            .decode(encoded).unwrap();
+
+        return match String::from_utf8(bytes) {
+            Ok(decoded_string) => Some(decoded_string),
             Err(_) => None,
-        }
+        };
     }
 }

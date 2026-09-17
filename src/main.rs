@@ -7,7 +7,7 @@ use std::sync::{Arc, Mutex};
 //use reqwest::Client;
 
 mod config_manager;
-use config_manager::config_manager::{get_cfg};
+use config_manager::config_manager::{get_cfg, decode_base64};
 
 mod structs;
 use structs::structs::{ConfigPayload};
@@ -95,9 +95,16 @@ async fn stop_service(Extension(state): Extension<AppState>) -> StatusCode {
 
 
 async fn load_cfg_data(Json(payload): Json<ConfigPayload>) -> StatusCode {
-    let cfg = get_cfg(&payload.url).await.unwrap();
+    let cfg = decode_base64(&get_cfg(&payload.url).await.unwrap().to_string());
 
-    println!("Config data: {}", cfg);
-        
+    let cfg = match cfg {
+        Some(c) => c,
+        _ => {return StatusCode::INTERNAL_SERVER_ERROR;}
+    };
+
+    let connect_strings: Vec<&str> = cfg.split('\n').collect();
+
+    println!("Config data: {:?}", connect_strings);
+    
     StatusCode::OK
 }
