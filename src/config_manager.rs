@@ -48,4 +48,9 @@ pub mod config_manager {
         writeln!(&file, "{}", json)?;
         Ok(())
     }
+
+    pub fn create_xray_cfg_from_string(string: &str) -> Result<(), Box<dyn std::error::Error>> {
+
+        Ok(())
+    }
 }
