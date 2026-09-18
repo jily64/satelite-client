@@ -7,7 +7,7 @@ use std::sync::{Arc, Mutex};
 //use reqwest::Client;
 
 mod config_manager;
-use config_manager::config_manager::{get_cfg, decode_base64};
+use config_manager::config_manager::{get_cfg, decode_base64, save_cfg};
 
 mod structs;
 use structs::structs::{ConfigPayload};
@@ -103,6 +103,10 @@ async fn load_cfg_data(Json(payload): Json<ConfigPayload>) -> StatusCode {
     };
 
     let connect_strings: Vec<&str> = cfg.split('\n').collect();
+
+    save_cfg(&connect_strings, "conf/list.json").unwrap_or_else(|e| {
+        println!("Failed to save config: {}", e);
+    });
 
     println!("Config data: {:?}", connect_strings);
     
